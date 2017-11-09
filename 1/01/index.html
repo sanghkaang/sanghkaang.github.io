@@ -1,0 +1,779 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.30.2 with theme Tranquilpeak 0.4.2-BETA">
+    <title>Hugo tranquilpeak theme</title>
+    <meta name="author" content="Sanghun Kang">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+    <meta name="description" content="안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.">
+    <meta property="og:description" content="안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Hugo tranquilpeak theme">
+    <meta property="og:url" content="/1/01/">
+    <meta property="og:site_name" content="Hugo tranquilpeak theme">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hugo tranquilpeak theme">
+    <meta name="twitter:description" content="안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=640">
+    
+
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">Hugo tranquilpeak theme</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=90" alt="" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="" />
+        </a>
+        <h4 class="sidebar-profile-name">Sanghun Kang</h4>
+        
+          <h5 class="sidebar-profile-bio">Super bio with markdown support <strong>COOL</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/https://github.com/sanghkaang">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="0001-01-01T00:00:00Z">
+        
+   1, 1
+
+      </time>
+    
+    
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              
+
+<p><img src="https://steemitimages.com/0x0/https://cdn-images-1.medium.com/max/800/1*lnHRa3D7XxjCp4Fl7hPgHQ.jpeg" alt="" /></p>
+
+<p>안녕하세요.</p>
+
+<p>지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다.
+지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?</p>
+
+<p>이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.</p>
+
+<h1 id="백업방법-1">백업방법 1</h1>
+
+<p><img src="../images/stratis-backup/1.png" alt="" />
+-   간단하게 <code>파일 -&gt; 지갑 백업</code>을 통해 백업 파일을 만들 수 있습니다.</p>
+
+<p><img src="../images/stratis-backup/2.png" alt="" />
+-   원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다.
+-   이름은 원하는대로 설정 가능하지만 일반적으로는 <code>wallet</code>으로 하는걸 추천드립니다.(복원할떄 파일 이름이 <code>wallet.dat</code>이어야 복원가능함)
+-   저는 <strong>백업파일을 압축하여 암호를 걸어둔 뒤</strong> USB, 그리고 클라우드에 보관중입니다.</p>
+
+<h1 id="백업방법-2">백업방법 2</h1>
+
+<p><img src="../images/stratis-backup/3.png" alt="" />
+-   위의 방법으로 <code>wallet.dat</code>파일을 생성해도 되지만 스트라티스 지갑을 설치하셨다면 이미 <code>wallet.dat</code>파일이 생성되어있습니다. 이 파일을 복사해서 백업파일로 사용하셔도 됩니다.
+-   <strong>각 운영체제별로 wallet.dat 경로가 다릅니다.</strong> 아래의 내용을 참조해주세요.
+-   윈도우의 경우, 예를 들어 로그인계정이 <code>sanghun</code>이라면 <code>wallet.dat</code>의 경로는 *C:\Users\sanghun\AppData\Roaming\Stratis\wallet.dat*입니다.</p>
+
+<pre><code>Windows: C:\Users\&lt;로그인한유저명&gt;\AppData\Roaming\Stratis\wallet.dat
+Mac: ~/Library/Application Support/stratis/wallet.dat
+Linux:  ~/.stratis/wallet.dat
+</code></pre>
+
+<h1 id="복구방법">복구방법</h1>
+
+<ul>
+<li>컴퓨터를 포맷해서 지갑이 날라갔거나, 지갑을 다른곳으로 옮기고싶을떄 위에서 만들어둔 백업파일을 사용하면 됩니다.</li>
+<li>백업파일을 아래의 경로에 넣어주세요.</li>
+</ul>
+
+<pre><code>Windows: C:\Users\&lt;로그인한유저명&gt;\AppData\Roaming\Stratis\wallet.dat
+Mac: ~/Library/Application Support/stratis/wallet.dat
+Linux:  ~/.stratis/wallet.dat
+</code></pre>
+
+<p>생각보다 쉽죠? 이게 끝입니다. 간단한 방법으로 이렇게 가상화폐를 지킬수 있습니다. 최근 거래소를 타겟으로한 ddos공격이 늘고 있습니다. 혹시 거래소에 스트라티스를 두고 계시다면 이번 기회에 꼭 개인지갑을 생성해서 개인지갑에 보관하는걸 추천드립니다.</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/1/01/" data-tooltip="">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml"></span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/" data-tooltip="apache zeppelin에 postgres DB 연결하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr"></span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/1/01/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/1/01/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/1/01/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. 
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/1/01/" data-tooltip="">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml"></span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/" data-tooltip="apache zeppelin에 postgres DB 연결하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr"></span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/1/01/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/1/01/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/1/01/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2F1%2F01%2F">
+          <i class="fa fa-facebook-official"></i><span>%!(EXTRA string=Facebook)</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2F1%2F01%2F">
+          <i class="fa fa-twitter"></i><span>%!(EXTRA string=Twitter)</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2F1%2F01%2F">
+          <i class="fa fa-google-plus"></i><span>%!(EXTRA string=Google&#43;)</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="" />
+    
+    <h4 id="about-card-name">Sanghun Kang</h4>
+    
+      <div id="about-card-bio">Super bio with markdown support <strong>COOL</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Data Analyst
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        South Korea
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center"></div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/07/contents-is-king-by-bill-gates-%EC%A0%84%EB%AC%B8-%EB%B2%88%EC%97%AD/">
+                <h3 class="media-heading">Contents is King by Bill Gates 전문 번역</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>1996년 1월 3일에 쓰여진 글입니다.</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">스트라티스 qt월렛 리눅스에서 빌드하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>코인을 거래소에 두는건 위험합니다. 해커들이 호시탐탐 노리고있으며 거래소가 먹튀할 확률도 있습니다.
+소중한 스트라티스를 개인지갑에 소중히 보관하고자 하는 취지에서 이번글을 작성해 봅니다.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2016/11/jekyll-github-blog-gemfile-%EB%B2%84%EC%A0%84-%EC%97%90%EB%9F%AC/">
+                <h3 class="media-heading">jekyll github blog gemfile 버전 에러</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>이런 에러가 났다. config파일을 바꿔보고 루비와 jekyll을 지웠다 다시 깔아보고 했지만 모두 실패함.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2016/11/python%EC%97%90%EC%84%9C-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%B4%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">python에서 postgres DB 연결해서 쿼리 조회하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>2번 방법을 추천한다. 이유는 아래에서.</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2015/06/welcome-to-tranquilpeak-0.4.2-beta/">
+                <h3 class="media-heading">Welcome to Tranquilpeak 0.4.2-BETA</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2015/05/elements-showcase/">
+                <h3 class="media-heading">Elements showcase</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&rsquo;s simple and elegant.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2015/05/cover-image-showcase/">
+                <h3 class="media-heading">Cover image showcase</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Tranquilpeak integrate a unique &ldquo;cover image&rdquo; feature. Open this post to see how this feature sublimate your article.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2015/03/highlighted-code-showcase/">
+                <h3 class="media-heading">highlighted code showcase</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Tranquilpeak Hugo theme have its own theme to highlight source code. It&rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2014/10/tags-plugins-showcase/">
+                <h3 class="media-heading">Tags plugins showcase</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2014
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>This post is used to show how tag plugins are displayed. See <a href="https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags">docs</a> for more info.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2014/08/hidden-social-section-showcase/">
+                <h3 class="media-heading">Hidden social section showcase</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2014
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>This post is used to show how a site looks if the social section is hidden.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero=""
+         data-message-one=""
+         data-message-other="">
+         24 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://themes.gohugo.io/theme/hugo-tranquilpeak-theme/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = '\/1\/01\/';
+          
+            this.page.identifier = '\/1\/01\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'sanghkaang';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+    
+  </body>
+</html>
+

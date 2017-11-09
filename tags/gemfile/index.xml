@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gemfile on Hugo tranquilpeak theme</title>
+    <link>/tags/gemfile/</link>
+    <description>Recent content in Gemfile on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr</language>
+    <lastBuildDate>Mon, 21 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gemfile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jekyll github blog gemfile 버전 에러</title>
+      <link>/2016/11/jekyll-github-blog-gemfile-%EB%B2%84%EC%A0%84-%EC%97%90%EB%9F%AC/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/11/jekyll-github-blog-gemfile-%EB%B2%84%EC%A0%84-%EC%97%90%EB%9F%AC/</guid>
+      <description>&lt;p&gt;이런 에러가 났다. config파일을 바꿔보고 루비와 jekyll을 지웠다 다시 깔아보고 했지만 모두 실패함.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

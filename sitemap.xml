@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/07/contents-is-king-by-bill-gates-%EC%A0%84%EB%AC%B8-%EB%B2%88%EC%97%AD/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/11/jekyll-github-blog-gemfile-%EB%B2%84%EC%A0%84-%EC%97%90%EB%9F%AC/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/11/python%EC%97%90%EC%84%9C-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%B4%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2015/06/welcome-to-tranquilpeak-0.4.2-beta/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
@@ -63,7 +83,20 @@
   </url>
   
   <url>
-    <loc>/#search/</loc>
+    <loc>/1/01/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/apache-zeppelin/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/appsflyer/</loc>
     <priority>0</priority>
   </url>
   
@@ -73,7 +106,37 @@
   </url>
   
   <url>
+    <loc>/tags/aws/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/billgates/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/blockchain/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blockchain/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,14 +147,58 @@
   </url>
   
   <url>
+    <loc>/tags/codecademy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/contents/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/cover-image/</loc>
     <lastmod>2015-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/categories/cryptocurency/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cryptocurrency/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/dailymotion/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-loading/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-visualization/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/database/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/dev/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,6 +211,17 @@
   <url>
     <loc>/categories/features/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gemfile/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
     <priority>0</priority>
   </url>
   
@@ -145,7 +263,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -162,8 +280,30 @@
   </url>
   
   <url>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/markdown/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/opencv/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/osx/</loc>
     <priority>0</priority>
   </url>
   
@@ -174,8 +314,37 @@
   </url>
   
   <url>
+    <loc>/tags/pandas/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/postgres/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/postgresql/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/psycopg2/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -192,8 +361,31 @@
   </url>
   
   <url>
+    <loc>/tags/ruby/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sierra/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/social/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sqlalchemy/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stratis/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -205,7 +397,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -228,6 +420,12 @@
   </url>
   
   <url>
+    <loc>/categories/translations/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/videos-integration/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -240,9 +438,44 @@
   </url>
   
   <url>
+    <loc>/tags/virtualenv/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wallet/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/youtube/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Hugo tranquilpeak theme</title>
+    <link>/tags/aws/</link>
+    <description>Recent content in Aws on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr</language>
+    
+	<atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>apache zeppelin에 postgres DB 연결하기</title>
+      <link>/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</guid>
+      <description>
+ 제플린 빌드 후 오른쪽 상단에서 Interpreter 클릭  
+ jdbc에서 DB 정보 입력
+ common.max_count: 한번에 몇개의 row를 조회할 것인지 설정
+ default.driver: org.postgresql.Driver
+ default.password: DB 패스워드
+ default.url: DB 주소. jdbc:postgresql://DNS_ADDRESS:PORT/DBNAME 형태로 입력.
+ default.user: DB user name 입력
+  
+ notebook에서 첫줄에 %jdbc입력 후 테스트 쿼리를 날려보면 잘 되는걸 확인 할 수 있다.  </description>
+    </item>
+    
+  </channel>
+</rss>
