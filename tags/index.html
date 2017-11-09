@@ -12,7 +12,7 @@
   
 
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en-us">
   <head>
     
     <meta charset="UTF-8">
@@ -84,7 +84,7 @@
     
     
       
-        <img class="header-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=90" alt="" />
+        <img class="header-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=90" alt="Author&#39;s picture" />
       
     
     </a>
@@ -96,7 +96,7 @@
     
       <div class="sidebar-profile">
         <a href="/#about">
-          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="" />
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">Sanghun Kang</h4>
         
@@ -198,25 +198,37 @@
 
         <div id="tags-archives" class="main-content-wrap">
           <form id="filter-form" action="#">
-            <input name="tag" type="text" class="form-control input--xlarge" placeholder="" autofocus="autofocus">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="Search tag" autofocus="autofocus">
           </form>
           <h4 class="archive-result text-color-base text-xlarge"
-              data-message-zero=""
-              data-message-one=""
-              data-message-other=""></h4>
+              data-message-zero="no tag found"
+              data-message-one="1 tag found"
+              data-message-other="{n} tags found"></h4>
 
             <section>
               
-                <a class="tag tag--primary tag--small" href="#apache-zeppelin-list" data-tag="apache-zeppelin">
-                  apache-zeppelin
+                <a class="tag tag--primary tag--small" href="#python-list" data-tag="python">
+                  python
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#postgres-list" data-tag="postgres">
+                  postgres
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#appsflyer-list" data-tag="appsflyer">
                   appsflyer
                 </a>
               
+                <a class="tag tag--primary tag--small" href="#blockchain-list" data-tag="blockchain">
+                  blockchain
+                </a>
+              
                 <a class="tag tag--primary tag--small" href="#blog-list" data-tag="blog">
                   blog
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#cryptocurrency-list" data-tag="cryptocurrency">
+                  cryptocurrency
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#data-loading-list" data-tag="data-loading">
@@ -227,36 +239,32 @@
                   database
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#jekyll-list" data-tag="jekyll">
-                  jekyll
+                <a class="tag tag--primary tag--small" href="#dev-list" data-tag="dev">
+                  dev
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#postgres-list" data-tag="postgres">
-                  postgres
+                <a class="tag tag--primary tag--small" href="#jekyll-list" data-tag="jekyll">
+                  jekyll
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#postgresql-list" data-tag="postgresql">
                   postgresql
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#python-list" data-tag="python">
-                  python
-                </a>
-              
                 <a class="tag tag--primary tag--small" href="#test-list" data-tag="test">
                   test
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#aws-list" data-tag="aws">
-                  aws
+                <a class="tag tag--primary tag--small" href="#zeppelin-list" data-tag="zeppelin">
+                  zeppelin
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#authy-list" data-tag="authy">
+                  authy
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#billgates-list" data-tag="billgates">
                   billgates
-                </a>
-              
-                <a class="tag tag--primary tag--small" href="#blockchain-list" data-tag="blockchain">
-                  blockchain
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#chinese-list" data-tag="chinese">
@@ -275,16 +283,8 @@
                   cover-image
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#cryptocurrency-list" data-tag="cryptocurrency">
-                  cryptocurrency
-                </a>
-              
                 <a class="tag tag--primary tag--small" href="#dailymotion-list" data-tag="dailymotion">
                   dailymotion
-                </a>
-              
-                <a class="tag tag--primary tag--small" href="#data-visualization-list" data-tag="data-visualization">
-                  data-visualization
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#disqus-list" data-tag="disqus">
@@ -345,6 +345,10 @@
               
                 <a class="tag tag--primary tag--small" href="#osx-list" data-tag="osx">
                   osx
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#otp-list" data-tag="otp">
+                  otp
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#pagination-list" data-tag="pagination">
@@ -414,29 +418,85 @@
             </section>
             <section class="boxes">
               
-                <div id="apache-zeppelin-list" class="archive box" data-tag="apache-zeppelin">
+                <div id="python-list" class="archive box" data-tag="python">
                   <h4 class="archive-title">
-                    <a class="link-unstyled" href="apache-zeppelin">
-                      apache-zeppelin (2)
+                    <a class="link-unstyled" href="python">
+                      python (4)
                     </a>
                   </h4>
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
-                          apache zeppelin에 postgres DB 연결하기
+                        <a class="archive-post-title" href="/1/01/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/">
+                          macOS Sierra에서 virtualenv에 Opencv3 설치
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
+                        <a class="archive-post-title" href="/2016/11/python%EC%97%90%EC%84%9C-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%B4%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/">
+                          python에서 postgres DB 연결해서 쿼리 조회하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  November 21, 2016
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
+                          apache zeppelin에 postgres DB 연결하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 23, 2017
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
                           apache zeppelin의 dynamic form 정리
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 23, 2017
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="postgres-list" class="archive box" data-tag="postgres">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="postgres">
+                      postgres (3)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2016/11/python%EC%97%90%EC%84%9C-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%B4%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/">
+                          python에서 postgres DB 연결해서 쿼리 조회하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  November 21, 2016
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
+                          apache zeppelin에 postgres DB 연결하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 23, 2017
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
+                          apache zeppelin의 dynamic form 정리
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 23, 2017
 </span>
                       </li>
                     
@@ -452,20 +512,49 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
                           appsflyer pull api를 이용해 daily report 적재하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  February 9, 2017
 </span>
                       </li>
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
                           appsflyer pull api를 이용해 raw data 적재하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  February 9, 2017
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="blockchain-list" class="archive box" data-tag="blockchain">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="blockchain">
+                      blockchain (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/05/otp%EC%95%B1-authy/">
+                          OTP앱 Authy
+                        </a>
+                        <span class="archive-post-date"> - 
+  May 8, 2017
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
+                          스트라티스 qt월렛 리눅스에서 빌드하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  May 9, 2017
 </span>
                       </li>
                     
@@ -485,7 +574,7 @@
                           github.io 블로그를 만들어 보자
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -494,7 +583,36 @@
                           jekyll github blog gemfile 버전 에러
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="cryptocurrency-list" class="archive box" data-tag="cryptocurrency">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="cryptocurrency">
+                      cryptocurrency (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/05/otp%EC%95%B1-authy/">
+                          OTP앱 Authy
+                        </a>
+                        <span class="archive-post-date"> - 
+  May 8, 2017
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
+                          스트라티스 qt월렛 리눅스에서 빌드하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  May 9, 2017
 </span>
                       </li>
                     
@@ -510,20 +628,20 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
                           appsflyer pull api를 이용해 daily report 적재하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  February 9, 2017
 </span>
                       </li>
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
                           appsflyer pull api를 이용해 raw data 적재하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  February 9, 2017
 </span>
                       </li>
                     
@@ -539,20 +657,49 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
                           apache zeppelin에 postgres DB 연결하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 23, 2017
 </span>
                       </li>
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
                           apache zeppelin의 dynamic form 정리
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 23, 2017
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="dev-list" class="archive box" data-tag="dev">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="dev">
+                      dev (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
+                          apache zeppelin에 postgres DB 연결하기
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 23, 2017
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
+                          apache zeppelin의 dynamic form 정리
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 23, 2017
 </span>
                       </li>
                     
@@ -572,7 +719,7 @@
                           github.io 블로그를 만들어 보자
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -581,36 +728,7 @@
                           jekyll github blog gemfile 버전 에러
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="postgres-list" class="archive box" data-tag="postgres">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="postgres">
-                      postgres (2)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
-                          apache zeppelin에 postgres DB 연결하기
-                        </a>
-                        <span class="archive-post-date"> - 
-   1, 1
-</span>
-                      </li>
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/2016/11/python%EC%97%90%EC%84%9C-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%B4%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/">
-                          python에서 postgres DB 연결해서 쿼리 조회하기
-                        </a>
-                        <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
 </span>
                       </li>
                     
@@ -626,49 +744,20 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
                           appsflyer pull api를 이용해 daily report 적재하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  February 9, 2017
 </span>
                       </li>
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
                           appsflyer pull api를 이용해 raw data 적재하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="python-list" class="archive box" data-tag="python">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="python">
-                      python (2)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/">
-                          macOS Sierra에서 virtualenv에 Opencv3 설치
-                        </a>
-                        <span class="archive-post-date"> - 
-   1, 1
-</span>
-                      </li>
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/2016/11/python%EC%97%90%EC%84%9C-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%B4%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/">
-                          python에서 postgres DB 연결해서 쿼리 조회하기
-                        </a>
-                        <span class="archive-post-date"> - 
-   21, 2016
+  February 9, 2017
 </span>
                       </li>
                     
@@ -688,7 +777,7 @@
                           Tags plugins showcase
                         </a>
                         <span class="archive-post-date"> - 
-   29, 2014
+  October 29, 2014
 </span>
                       </li>
                     
@@ -697,27 +786,56 @@
                           highlighted code showcase
                         </a>
                         <span class="archive-post-date"> - 
-   23, 2015
+  March 23, 2015
 </span>
                       </li>
                     
                   </ul>
                 </div>
               
-                <div id="aws-list" class="archive box" data-tag="aws">
+                <div id="zeppelin-list" class="archive box" data-tag="zeppelin">
                   <h4 class="archive-title">
-                    <a class="link-unstyled" href="aws">
-                      aws (1)
+                    <a class="link-unstyled" href="zeppelin">
+                      zeppelin (2)
                     </a>
                   </h4>
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
                           apache zeppelin에 postgres DB 연결하기
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 23, 2017
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
+                          apache zeppelin의 dynamic form 정리
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 23, 2017
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="authy-list" class="archive box" data-tag="authy">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="authy">
+                      authy (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/05/otp%EC%95%B1-authy/">
+                          OTP앱 Authy
+                        </a>
+                        <span class="archive-post-date"> - 
+  May 8, 2017
 </span>
                       </li>
                     
@@ -737,27 +855,7 @@
                           Contents is King by Bill Gates 전문 번역
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2017
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="blockchain-list" class="archive box" data-tag="blockchain">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="blockchain">
-                      blockchain (1)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
-                          스트라티스 qt월렛 리눅스에서 빌드하기
-                        </a>
-                        <span class="archive-post-date"> - 
-   9, 2017
+  July 9, 2017
 </span>
                       </li>
                     
@@ -777,7 +875,7 @@
                           中文測試
                         </a>
                         <span class="archive-post-date"> - 
-   2, 2013
+  October 2, 2013
 </span>
                       </li>
                     
@@ -797,7 +895,7 @@
                           github.io 블로그를 만들어 보자
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -817,7 +915,7 @@
                           Contents is King by Bill Gates 전문 번역
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2017
+  July 9, 2017
 </span>
                       </li>
                     
@@ -837,27 +935,7 @@
                           Cover image showcase
                         </a>
                         <span class="archive-post-date"> - 
-   13, 2015
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="cryptocurrency-list" class="archive box" data-tag="cryptocurrency">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="cryptocurrency">
-                      cryptocurrency (1)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
-                          스트라티스 qt월렛 리눅스에서 빌드하기
-                        </a>
-                        <span class="archive-post-date"> - 
-   9, 2017
+  May 13, 2015
 </span>
                       </li>
                     
@@ -877,27 +955,7 @@
                           Video integrations showcase
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2014
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="data-visualization-list" class="archive box" data-tag="data-visualization">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="data-visualization">
-                      data-visualization (1)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="/1/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
-                          apache zeppelin의 dynamic form 정리
-                        </a>
-                        <span class="archive-post-date"> - 
-   1, 1
+  August 9, 2014
 </span>
                       </li>
                     
@@ -917,7 +975,7 @@
                           Welcome to Tranquilpeak 0.4.2-BETA
                         </a>
                         <span class="archive-post-date"> - 
-   15, 2015
+  June 15, 2015
 </span>
                       </li>
                     
@@ -937,7 +995,7 @@
                           jekyll github blog gemfile 버전 에러
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
 </span>
                       </li>
                     
@@ -957,7 +1015,7 @@
                           github.io 블로그를 만들어 보자
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -977,7 +1035,7 @@
                           highlighted code showcase
                         </a>
                         <span class="archive-post-date"> - 
-   23, 2015
+  March 23, 2015
 </span>
                       </li>
                     
@@ -997,7 +1055,7 @@
                           Welcome to Tranquilpeak 0.4.2-BETA
                         </a>
                         <span class="archive-post-date"> - 
-   15, 2015
+  June 15, 2015
 </span>
                       </li>
                     
@@ -1017,7 +1075,7 @@
                           Welcome to Tranquilpeak 0.4.2-BETA
                         </a>
                         <span class="archive-post-date"> - 
-   15, 2015
+  June 15, 2015
 </span>
                       </li>
                     
@@ -1037,7 +1095,7 @@
                           Welcome to Tranquilpeak 0.4.2-BETA
                         </a>
                         <span class="archive-post-date"> - 
-   15, 2015
+  June 15, 2015
 </span>
                       </li>
                     
@@ -1057,7 +1115,7 @@
                           highlighted code showcase
                         </a>
                         <span class="archive-post-date"> - 
-   23, 2015
+  March 23, 2015
 </span>
                       </li>
                     
@@ -1077,7 +1135,7 @@
                           Elements showcase
                         </a>
                         <span class="archive-post-date"> - 
-   28, 2015
+  May 28, 2015
 </span>
                       </li>
                     
@@ -1097,7 +1155,7 @@
                           Image gallery showcase
                         </a>
                         <span class="archive-post-date"> - 
-   18, 2013
+  February 18, 2013
 </span>
                       </li>
                     
@@ -1117,7 +1175,7 @@
                           日本語テスト
                         </a>
                         <span class="archive-post-date"> - 
-   2, 2013
+  January 2, 2013
 </span>
                       </li>
                     
@@ -1137,7 +1195,7 @@
                           스트라티스 qt월렛 리눅스에서 빌드하기
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2017
+  May 9, 2017
 </span>
                       </li>
                     
@@ -1157,7 +1215,7 @@
                           Elements showcase
                         </a>
                         <span class="archive-post-date"> - 
-   28, 2015
+  May 28, 2015
 </span>
                       </li>
                     
@@ -1177,7 +1235,7 @@
                           macOS Sierra에서 virtualenv에 Opencv3 설치
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -1197,7 +1255,27 @@
                           macOS Sierra에서 virtualenv에 Opencv3 설치
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="otp-list" class="archive box" data-tag="otp">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="otp">
+                      otp (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="/2017/05/otp%EC%95%B1-authy/">
+                          OTP앱 Authy
+                        </a>
+                        <span class="archive-post-date"> - 
+  May 8, 2017
 </span>
                       </li>
                     
@@ -1217,7 +1295,7 @@
                           Hidden pagination showcase
                         </a>
                         <span class="archive-post-date"> - 
-   15, 2014
+  August 15, 2014
 </span>
                       </li>
                     
@@ -1237,7 +1315,7 @@
                           python에서 postgres DB 연결해서 쿼리 조회하기
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
 </span>
                       </li>
                     
@@ -1257,7 +1335,7 @@
                           python에서 postgres DB 연결해서 쿼리 조회하기
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
 </span>
                       </li>
                     
@@ -1277,7 +1355,7 @@
                           Welcome to Tranquilpeak 0.4.2-BETA
                         </a>
                         <span class="archive-post-date"> - 
-   15, 2015
+  June 15, 2015
 </span>
                       </li>
                     
@@ -1297,7 +1375,7 @@
                           jekyll github blog gemfile 버전 에러
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
 </span>
                       </li>
                     
@@ -1317,7 +1395,7 @@
                           macOS Sierra에서 virtualenv에 Opencv3 설치
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -1337,7 +1415,7 @@
                           Hidden social section showcase
                         </a>
                         <span class="archive-post-date"> - 
-   17, 2014
+  August 17, 2014
 </span>
                       </li>
                     
@@ -1357,7 +1435,7 @@
                           python에서 postgres DB 연결해서 쿼리 조회하기
                         </a>
                         <span class="archive-post-date"> - 
-   21, 2016
+  November 21, 2016
 </span>
                       </li>
                     
@@ -1377,7 +1455,7 @@
                           스트라티스 qt월렛 리눅스에서 빌드하기
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2017
+  May 9, 2017
 </span>
                       </li>
                     
@@ -1397,7 +1475,7 @@
                           Tags plugins showcase
                         </a>
                         <span class="archive-post-date"> - 
-   29, 2014
+  October 29, 2014
 </span>
                       </li>
                     
@@ -1417,7 +1495,7 @@
                           Hidden tag section showcase
                         </a>
                         <span class="archive-post-date"> - 
-   16, 2014
+  August 16, 2014
 </span>
                       </li>
                     
@@ -1437,7 +1515,7 @@
                           Video integrations showcase
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2014
+  August 9, 2014
 </span>
                       </li>
                     
@@ -1457,7 +1535,7 @@
                           Video integrations showcase
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2014
+  August 9, 2014
 </span>
                       </li>
                     
@@ -1477,7 +1555,7 @@
                           macOS Sierra에서 virtualenv에 Opencv3 설치
                         </a>
                         <span class="archive-post-date"> - 
-   1, 1
+  January 1, 1
 </span>
                       </li>
                     
@@ -1497,7 +1575,7 @@
                           스트라티스 qt월렛 리눅스에서 빌드하기
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2017
+  May 9, 2017
 </span>
                       </li>
                     
@@ -1517,7 +1595,7 @@
                           Video integrations showcase
                         </a>
                         <span class="archive-post-date"> - 
-   9, 2014
+  August 9, 2014
 </span>
                       </li>
                     
@@ -1528,7 +1606,7 @@
          </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. 
+    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
   </span>
 </footer>
 
@@ -1540,7 +1618,7 @@
       <i class="fa fa-remove"></i>
     </div>
     
-      <img id="about-card-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="" />
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="Author&#39;s picture" />
     
     <h4 id="about-card-name">Sanghun Kang</h4>
     

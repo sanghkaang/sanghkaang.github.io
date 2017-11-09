@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Otp on Hugo tranquilpeak theme</title>
+    <link>/tags/otp/</link>
+    <description>Recent content in Otp on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/otp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OTP앱 Authy</title>
+      <link>/2017/05/otp%EC%95%B1-authy/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/05/otp%EC%95%B1-authy/</guid>
+      <description>&lt;p&gt;안녕하세요. 이번글에선 OTP앱인 Authy를 소개드리고자 합니다.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
