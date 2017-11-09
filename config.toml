@@ -29,7 +29,6 @@ canonifyurls = true
   tag = "tags"
   category = "categories"
   archive = "archives"
-  search = "#search"
 
 [author]
   name = "Sanghun Kang"
@@ -104,7 +103,7 @@ canonifyurls = true
   # You must use date format used by Go Time package https://golang.org/pkg/time/
   # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
   # Default format is: January 2, 2006 
-  # dateFormat = "2 January 2006"
+  # dateFormat = "January 2, 2006"
 
   # Global keywords configuration. Following keywords will be add to every pages
   # keywords = ["development", "next-gen"]
@@ -218,5 +217,5 @@ canonifyurls = true
   #   url = "/#about"
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
-  # [params.footer]
-  #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+   [params.footer]
+     copyright = "<a href=\"https://github.com/sanghkaang\">sanghkaang</a>"
