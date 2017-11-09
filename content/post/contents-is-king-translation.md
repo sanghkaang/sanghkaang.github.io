@@ -1,7 +1,7 @@
 ---
 title: "Contents is King by Bill Gates 전문 번역"
-metaAlignment: center
 date: 2017-07-09
+metaAlignment: center
 categories:
 - Translations
 tags:

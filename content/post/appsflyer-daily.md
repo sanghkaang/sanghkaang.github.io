@@ -1,11 +1,21 @@
 ---
-layout: post
 title: "appsflyer pull api를 이용해 daily report 적재하기"
-description: "모바일 트래킹 툴 앱스플라이어"
-tags: [appsflyer, postgresql, data loading]
-image:
-  feature: "appsflyer-logo.jpg"
+metaAlignment: center
+date: 2017-02-09
+categories:
+- dev
+tags:
+- appsflyer
+- postgresql
+- data loading
+thumbnailImage: //pbs.twimg.com/profile_images/559739646804885504/7KnZfyyo.png
+thumbnailImagePosition: left
 ---
+
+
+<!--more-->
+
+
 
 - 참조: [appsflyer pull api 가이드](https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-APIs-Pulling-AppsFlyer-Reports-by-APIs)
 

@@ -1,7 +1,7 @@
 ---
 title: "python에서 postgres DB 연결해서 쿼리 조회하기"
-metaAlignment: center
 date: 2016-11-21
+metaAlignment: center
 categories:
 - dev
 tags:

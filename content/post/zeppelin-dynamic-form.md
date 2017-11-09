@@ -1,19 +1,31 @@
 ---
-layout: post
 title: "apache zeppelin의 dynamic form 정리"
-description: "활용법은 무궁무진"
-tags: [apache-zeppelin, data visualization, Database]
-image:
-  feature: "zeppelin-notebook.png"
+metaAlignment: center
+date: 2017-01-23
+categories:
+- dev
+tags:
+- dev
+- python
+- zeppelin
+- postgres
+- database
+thumbnailImage: //zeppelin-project.org/assets/themes/nflabs-sb/img/zeppelin-logo.svg
+thumbnailImagePosition: left
+autoThumbnailImage: yes
 ---
 
+dynamic form을 이용하면 충분히 쓸만한 custom dashboard를 만들 수 있다.
+
+<!--more-->
+<!--toc-->
 > 참조. [http://zeppelin.apache.org/docs/0.6.2/manual/dynamicform.html](http://zeppelin.apache.org/docs/0.6.2/manual/dynamicform.html)
 
-- dynamic form을 이용하면 충분히 쓸만한 custom dashboard를 만들 수 있다.
+
 
 # 1. Text input form
 
-<center><img src="../images/zeppelin-dynamic-form/1.png" width="600"></center>
+<!-- <center><img src="../images/zeppelin-dynamic-form/1.png" width="600"></center> -->
 
 &nbsp;
 
@@ -23,7 +35,7 @@ image:
 
 # 2. Select form
 
-<center><img src="../images/zeppelin-dynamic-form/2.png" width="600"></center>
+<!-- <center><img src="../images/zeppelin-dynamic-form/2.png" width="600"></center> -->
 
 &nbsp;
 
@@ -36,12 +48,12 @@ image:
 - 쿼리 사용할 때 유용하다.
 - in 뒤의 () 안에 string 값들이 들어갈 땐 `'`기호가 필요한데 이럴땐 delimiter를 `','` 형태로 주고 전체 dynamic form을 `'`로 감싸주면 된다.
 
-<center><img src="../images/zeppelin-dynamic-form/3.png" width="600"></center>
+<!-- <center><img src="../images/zeppelin-dynamic-form/3.png" width="600"></center> -->
 &nbsp;
-<center><img src="../images/zeppelin-dynamic-form/4.png" width="600"></center>
+<!-- <center><img src="../images/zeppelin-dynamic-form/4.png" width="600"></center> -->
 &nbsp;
 
-<center><img src="../images/zeppelin-dynamic-form/5.png" width="600"></center>
+<!-- <center><img src="../images/zeppelin-dynamic-form/5.png" width="600"></center> -->
 
 &nbsp;
 

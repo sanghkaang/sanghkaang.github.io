@@ -1,9 +1,9 @@
 ---
 title: "jekyll github blog gemfile 버전 에러"
+date: 2016-11-21
 thumbnailImagePosition: left
 thumbnailImage: //avatars1.githubusercontent.com/u/3083652?s=400&v=4
 metaAlignment: center
-date: 2016-11-21
 categories:
 - dev
 tags:
