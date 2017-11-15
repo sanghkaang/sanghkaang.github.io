@@ -3,7 +3,7 @@ title: "스트라티스 qt월렛 리눅스에서 빌드하기"
 date: 2017-05-09
 metaAlignment: center
 thumbnailImagePosition: left
-thumbnailImage: //files.coinmarketcap.com.s3-website-us-east-1.amazonaws.com/static/img/coins/200x200/stratis.png
+thumbnailImage: //bittrexblobstorage.blob.core.windows.net/public/74083684-8817-4e0e-9107-7fcc129f4e73.png
 coverImage: //themerkle.com/wp-content/uploads/2016/06/Stratis.jpg
 coverMeta: out
 categories:

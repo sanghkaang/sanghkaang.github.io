@@ -11,7 +11,7 @@ tags:
 - cryptocurrency
 - wallet
 - linux
-thumbnailImage: //files.coinmarketcap.com.s3-website-us-east-1.amazonaws.com/static/img/coins/200x200/stratis.png
+thumbnailImage: //bittrexblobstorage.blob.core.windows.net/public/74083684-8817-4e0e-9107-7fcc129f4e73.png
 thumbnailImagePosition: left
 ---
 
