@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dev on Hugo tranquilpeak theme</title>
+    <title>Dev on Keep Moving</title>
     <link>/categories/dev/</link>
-    <description>Recent content in Dev on Hugo tranquilpeak theme</description>
+    <description>Recent content in Dev on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 May 2017 00:00:00 +0000</lastBuildDate>
@@ -17,8 +17,7 @@
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/</guid>
-      <description>github page는 무엇인가? https://pages.github.com/ 는 깃허브에서 다이렉트로 호스팅해주는 서비스이다. 무료이다. 단 깃허브 계정 하나에 한 페이지만 만들 수 있다. 개발자들은 주로 포트폴리오나 cv, 또는 개인 블로그로 사용하고있다. 내 블로그인 sanghun.xyz도 깃허브 리포지터리를 이용한 페이지이다. 도메인은 aws에서 구매해 연결했다.
-참조 나는 codecademy의 deploy-a-website를 따라해서 만들었다. 쉽고 친절한 수업이라 따라만 해도 쉽게 웹사이트를 배포할 수 있다. 물론 배포까지만! 그 다음은 개인의 웹개발 역량에 달려있다. 나는 괜찮아보이는 공개 theme를 가져다 썼다. 아래의 방법은 codecademy의 수업을 요약한 것이다.</description>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -63,8 +62,7 @@
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>/2016/12/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/</guid>
-      <description>feature: &amp;ldquo;opencv-python.png&amp;rdquo;
-python3 설치  간단하게 brew로 설치하자  brew install python3  opencv3 설치  3은 아직 베타라고 한다. 안전한 버전을 원하면 opencv2를 설치하자. 나는 그냥 3설치 했다.  brew tap homebrew/science brew install opencv3 --with-python3 --with-ffmpeg --with-tbb --with-contrib  2016.12.04 임시 설치법  현재 mac OS Sierra에서 Opencv 설치에 문제가 있다. &amp;ndash;HEAD를 추가해 아래 방법대로 하면 된다. (16.12.4 기준) https://github.com/Homebrew/homebrew-science/issues/4104#issuecomment-249362870  brew install opencv3 --HEAD --with-python3 --with-ffmpeg --with-tbb --with-contrib  lookup 만들어주기  Ln -s {opencv의 site-packages} {사용하는 python환경의 site-packages} 형태로 lookup을 만들어 준다.</description>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

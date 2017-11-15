@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>/2017/05/sample-meta/</loc>
+    <loc>/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/</loc>
     <lastmod>2017-05-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -220,14 +220,14 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/jekyll/</loc>
-    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

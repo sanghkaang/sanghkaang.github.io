@@ -1,5 +1,9 @@
 
 
+  
+    
+  
+
 
   
 
@@ -18,25 +22,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.30.2 with theme Tranquilpeak 0.4.2-BETA">
-    <title>Github</title>
+    <title>stratis wallet backup하기</title>
     <meta name="author" content="Sanghun Kang">
     <meta name="keywords" content="">
 
     <link rel="icon" href="/favicon-btc.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="/tags/github/index.xml">
-    
 
     
-    <meta name="description" content="Hugo tranquilpeak theme demo">
-    <meta property="og:description" content="Hugo tranquilpeak theme demo">
+    <meta name="description" content="">
+    <meta property="og:description" content="">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Github">
-    <meta property="og:url" content="/tags/github/">
+    <meta property="og:title" content="stratis wallet backup하기">
+    <meta property="og:url" content="/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
     <meta property="og:site_name" content="Keep Moving">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Keep Moving">
-    <meta name="twitter:description" content="Hugo tranquilpeak theme demo">
+    <meta name="twitter:description" content="">
     
     
 
@@ -47,6 +49,8 @@
       <meta property="og:image" content="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=640">
     
 
+    
+      <meta property="og:image" content="//files.coinmarketcap.com.s3-website-us-east-1.amazonaws.com/static/img/coins/200x200/stratis.png">
     
     
     
@@ -71,7 +75,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/">Keep Moving</a>
@@ -91,7 +95,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -190,35 +194,21 @@
 </nav>
 
       
-        
 
-      
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
                hasCoverMetaIn
                ">
-        
-          <section class="postShorten-group main-content-wrap">
-            
-            
-              
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-center">
   
-    
+    <h1 class="post-title" itemprop="headline">
+      stratis wallet backup하기
+    </h1>
   
-
-
   
-
-<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/">
-          github.io 블로그를 만들어 보자
-        </a>
-      </h1>
-      
   <div class="postShorten-meta post-meta">
     
       <time itemprop="datePublished" datetime="2017-05-09T00:00:00Z">
@@ -232,35 +222,167 @@
   
     <span>in</span>
     
-      <a class="category-link" href="/categories/dev">dev</a>
+      <a class="category-link" href="/categories/blockchain">blockchain</a>, 
+    
+      <a class="category-link" href="/categories/cryptocurency">cryptocurency</a>
     
   
 
   </div>
 
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p></p>
-      <p>
-        <a href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/" class="postShorten-excerpt_link link">Continue reading</a>
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>
+<img src="https://steemitimages.com/0x0/https://cdn-images-1.medium.com/max/800/1*lnHRa3D7XxjCp4Fl7hPgHQ.jpeg" alt="" /></p>
+
+<p>안녕하세요.</p>
+
+<p>지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다.</p>
+
+<p>지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?</p>
+
+<p>이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.</p>
+
+<h1 id="백업방법-1">백업방법 1</h1>
+
+<p><img src="https://lh3.googleusercontent.com/_RsYsgIQcLJApNkjqdiQxX8Jgyj4ZnDW-BvcB8J5aHjj74nvqxgf4o-VX_fQtZ8bJx8Gt_Hm08RWwWawd1MVRAy0z7Q1ThT-wE30-1Y0VUzhZYMtztxRpPTZwZ21dtptgxxHLnYUq5IPhIKiUF9NcsAqYN7lPtK0WQ5wm2uamfyt9enM2ve4OuQqmdMcRfwnOVxWZNbwiNElIDQ870Atzp15It_kXlPtsI1fgCzFia3hjucgwpOoieI5VR1ticn8M-esUHpmFdH3kOdN7cIbtpqgk0LC5EtK5asfb4OxxXsko83anACEMOukaNN7ur-PaLUjqNGUUvNJzf48f5zYEyyE8vJaPmJdgMQt0wb-f1snXph1XWQyh0Xlxa3kWb9PEjAGZ319YM3apswP3lipa8hxpBdg1hM_gyJnq12aRid4b-Mjuq05kHoze3N9RGiHWUNoUWMMnKotY_sTTLjZRuscnNJJrzKxCx_IbDrX4qQypL3v0f44pHRHxEIP5G7YBJ802fSha_o8CjTA7fkt-ftFrPLKBA3As9vNIsHQ-zBMxr2YQjEAPL5eNEuVa7iMeEKNW06swNqA7dEcI8hSab_VLivPxjJgf7QCEC3rpEQR3A6wnEqwDECo2248qqhX9YcNP-ZOdc86lAj1KT3XCAoXA0Rw4CiWoMOP=w796-h414-no" alt="" />
+-   간단하게 <code>파일 -&gt; 지갑 백업</code>을 통해 백업 파일을 만들 수 있습니다.</p>
+
+<p><img src="https://lh3.googleusercontent.com/144qg04MUwMxC8OSyrHUK6M2QVp9iXZNKTB_e4jECPvCSjStjv5TUX5UQtSKjKij3t9g0wv1H0y5gNdfxcx1yTTE66IGmahcTdwhtEQhJUumOyzcqTPs8ToqML1d4H0EEWeih449KNnnvfzymeppdHLqIkv-35SoVtyIDNb_Ds4g6o79xquqnvsF7a60XXgvR3lUHPMCuwfOGiY9UoyeaLDLFG0o8niJTuGkpoKX2Y8tHggAurd6tryXtoQdDk97p_z_opaoZC8jjxYf41vZiGEGjb7BPrPqqQbsOQnNvsuE30gH1cVTgIWV9Ah7VoaHPVgZNtD8WowupQn89FfPMgsPFC3Ivxk4y6CHaYcQieRqRGEmyjvxn7kap-XkV40qvCL7lcbQNHK8jRzAOzd3A2h4AgxVum9iXC3fQY3F5qq4B70CpkO5BHfpF9ivURRNtwiFb0qatEXlNP1U6cfdlkwH0x7qjYlITjWUFOk4_BUpExZvY2qsBHzFn_EKJys84RSDtIdsLALa2Z_5zauwAVZK3XxSc8CuaOYlJRL3cMiZ76u5BRSua-mCFHYGxh-RjLjQv5mTzS8M9A5CZRnXdxCDzwPLVYIvtSVGS49QPuaafY3_cbLtx--ds7SJf8VFJ6s341JNbL3vzEmBAHYTHi0diIbK43OP8jnq=w1410-h1178-no" alt="" />
+-   원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다.
+-   이름은 원하는대로 설정 가능하지만 일반적으로는 <code>wallet</code>으로 하는걸 추천드립니다.(복원할떄 파일 이름이 <code>wallet.dat</code>이어야 복원가능함)
+-   저는 <strong>백업파일을 압축하여 암호를 걸어둔 뒤</strong> USB, 그리고 클라우드에 보관중입니다.</p>
+
+<h1 id="백업방법-2">백업방법 2</h1>
+
+<p><img src="https://lh3.googleusercontent.com/CzlwtUxbH5_yaT6N1Y__yR8tK0xgefA3-a9tCgpDG-9Q2HIsLapYB-e06zEdoTC8keWF2fDX1p3Bqqihch1BAjcDtAGIs2Foc7FBH1Pyx1E0My6OIegSK_S0iSNzYAFQUL3bS8PTtEYffC6ASJlKh7u9QLvnj_dwBJnh7AvmSWdWG37M0iV55yXk2Al8-ZgWv7rv__jsPofxaj1zpDUVmIndzIpuStGs7lj8oamU1C14RFLfm0p-D8K1cgspu_HlRGic5VHWBl1FkwIs-uHgLtlWwpY0-geUMtxLSVhgaOLKk8OHG4yPgZ2zWHpAYWTgzVJQCknuKcIN3N47d3bKbeY6N3OzasNr_AJmg14L13usxQHTumqyZQOEVsSD8NbxvGoFufu5o1X4iplmY9ScnLyWDDccul8NB6bd_GgZf2PpggyYFtk_zFpWKOXvi5RSfT-6daa02tHqNIQbY5D_EiHf2JzCPLx0WZueYYKCE5afSeVSyW1Jy8M_yg6yFHHu5Wf_f4yFOdC4pAr7HBVGqn0tXTvJuxpMV0etiA0CIwf1qsZ1bgFFIo-ZfBbHHJAGJM8Hlz0-AmuiYZbZ90gR2renMl5y8pHGcQyc1rid5VMP0zgNzsXKGAKJauCyIs9cYggsxff-FZQ8958zi3sOa-L11aHUDZqCoPBo=w2276-h1230-no" alt="" />
+-   위의 방법으로 <code>wallet.dat</code>파일을 생성해도 되지만 스트라티스 지갑을 설치하셨다면 이미 <code>wallet.dat</code>파일이 생성되어있습니다. 이 파일을 복사해서 백업파일로 사용하셔도 됩니다.
+-   <strong>각 운영체제별로 wallet.dat 경로가 다릅니다.</strong> 아래의 내용을 참조해주세요.
+-   윈도우의 경우, 예를 들어 로그인계정이 <code>sanghun</code>이라면 <code>wallet.dat</code>의 경로는 *C:\Users\sanghun\AppData\Roaming\Stratis\wallet.dat*입니다.</p>
+
+<pre><code>Windows: C:\Users\&lt;로그인한유저명&gt;\AppData\Roaming\Stratis\wallet.dat
+Mac: ~/Library/Application Support/stratis/wallet.dat
+Linux:  ~/.stratis/wallet.dat
+</code></pre>
+
+<h1 id="복구방법">복구방법</h1>
+
+<ul>
+<li>컴퓨터를 포맷해서 지갑이 날라갔거나, 지갑을 다른곳으로 옮기고싶을떄 위에서 만들어둔 백업파일을 사용하면 됩니다.</li>
+<li>백업파일을 아래의 경로에 넣어주세요.</li>
+</ul>
+
+<pre><code>Windows: C:\Users\&lt;로그인한유저명&gt;\AppData\Roaming\Stratis\wallet.dat
+Mac: ~/Library/Application Support/stratis/wallet.dat
+Linux:  ~/.stratis/wallet.dat
+</code></pre>
+
+<p>생각보다 쉽죠? 이게 끝입니다. 간단한 방법으로 이렇게 가상화폐를 지킬수 있습니다. 최근 거래소를 타겟으로한 ddos공격이 늘고 있습니다. 혹시 거래소에 스트라티스를 두고 계시다면 이번 기회에 꼭 개인지갑을 생성해서 개인지갑에 보관하는걸 추천드립니다.</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/stratis/">stratis</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/blockchain/">blockchain</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/cryptocurrency/">cryptocurrency</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/wallet/">wallet</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/linux/">linux</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/" data-tooltip="github.io 블로그를 만들어 보자">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/" data-tooltip="스트라티스 qt월렛 리눅스에서 빌드하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
         
-      </p>
-    </div>
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
   </div>
-  
-    <a href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" itemprop="image" src="//s3.amazonaws.com/clarityfm-production/attachments/546/default/logo-jekyll-udemy.png?1393285554"/>
-      </div>
-    </a>
-  
-</article>
+
 
             
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
             
-
-          </section>
-        
+          </div>
+        </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
@@ -268,6 +390,102 @@
 </footer>
 
       </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/" data-tooltip="github.io 블로그를 만들어 보자">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/" data-tooltip="스트라티스 qt월렛 리눅스에서 빌드하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2F2017%2F05%2Fstratis-wallet-backup%25ED%2595%2598%25EA%25B8%25B0%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2F2017%2F05%2Fstratis-wallet-backup%25ED%2595%2598%25EA%25B8%25B0%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2F2017%2F05%2Fstratis-wallet-backup%25ED%2595%2598%25EA%25B8%25B0%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
     </div>
     
     <div id="about">
@@ -536,6 +754,32 @@ $(document).ready(function() {
 });
 </script>
 
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = '\/2017\/05\/stratis-wallet-backup%ED%95%98%EA%B8%B0\/';
+          
+            this.page.identifier = '\/2017\/05\/stratis-wallet-backup%ED%95%98%EA%B8%B0\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'sanghkaang';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
 
 
 
