@@ -50,25 +50,16 @@
     <item>
       <title>Blog</title>
       <link>/tags/blog/</link>
-      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chinese</title>
-      <link>/tags/chinese/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/chinese/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Codecademy</title>
       <link>/tags/codecademy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/codecademy/</guid>
       <description></description>
@@ -84,29 +75,11 @@
     </item>
     
     <item>
-      <title>Cover Image</title>
-      <link>/tags/cover-image/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cover-image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cryptocurrency</title>
       <link>/tags/cryptocurrency/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/cryptocurrency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dailymotion</title>
-      <link>/tags/dailymotion/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/dailymotion/</guid>
       <description></description>
     </item>
     
@@ -138,15 +111,6 @@
     </item>
     
     <item>
-      <title>Disqus</title>
-      <link>/tags/disqus/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/disqus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gemfile</title>
       <link>/tags/gemfile/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
@@ -158,88 +122,16 @@
     <item>
       <title>Github</title>
       <link>/tags/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Github Theme</title>
-      <link>/tags/github-theme/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/github-theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Analytics</title>
-      <link>/tags/google-analytics/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/google-analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gravatar</title>
-      <link>/tags/gravatar/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gravatar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hexo Theme</title>
-      <link>/tags/hexo-theme/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hexo-theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Highlight Code</title>
-      <link>/tags/highlight-code/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/highlight-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html Elements</title>
-      <link>/tags/html-elements/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/html-elements/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image Gallery</title>
-      <link>/tags/image-gallery/</link>
-      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/image-gallery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japanese</title>
-      <link>/tags/japanese/</link>
-      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/japanese/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jekyll</title>
       <link>/tags/jekyll/</link>
-      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/jekyll/</guid>
       <description></description>
@@ -255,18 +147,9 @@
     </item>
     
     <item>
-      <title>Markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Opencv</title>
       <link>/tags/opencv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/opencv/</guid>
       <description></description>
@@ -275,7 +158,7 @@
     <item>
       <title>Osx</title>
       <link>/tags/osx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/osx/</guid>
       <description></description>
@@ -287,15 +170,6 @@
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/otp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pagination</title>
-      <link>/tags/pagination/</link>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/pagination/</guid>
       <description></description>
     </item>
     
@@ -345,38 +219,11 @@
     </item>
     
     <item>
-      <title>Responsive</title>
-      <link>/tags/responsive/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/responsive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ruby</title>
       <link>/tags/ruby/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sierra</title>
-      <link>/tags/sierra/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sierra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social</title>
-      <link>/tags/social/</link>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/social/</guid>
       <description></description>
     </item>
     
@@ -399,54 +246,9 @@
     </item>
     
     <item>
-      <title>Tag Plugins</title>
-      <link>/tags/tag-plugins/</link>
-      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tag-plugins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>/tags/tags/</link>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>/tags/test/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Videos Integration</title>
-      <link>/tags/videos-integration/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/videos-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vimeo</title>
-      <link>/tags/vimeo/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/vimeo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Virtualenv</title>
       <link>/tags/virtualenv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/virtualenv/</guid>
       <description></description>
@@ -458,15 +260,6 @@
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/wallet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Youtube</title>
-      <link>/tags/youtube/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/youtube/</guid>
       <description></description>
     </item>
     

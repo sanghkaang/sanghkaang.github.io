@@ -1,0 +1,808 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.30.2 with theme Tranquilpeak 0.4.2-BETA">
+    <title>sample meta</title>
+    <meta name="author" content="Sanghun Kang">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+    <meta name="description" content="안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.">
+    <meta property="og:description" content="안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="sample meta">
+    <meta property="og:url" content="/2017/05/sample-meta/">
+    <meta property="og:site_name" content="Hugo tranquilpeak theme">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hugo tranquilpeak theme">
+    <meta name="twitter:description" content="안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=640">
+    
+
+    
+      <meta property="og:image" content="//files.coinmarketcap.com.s3-website-us-east-1.amazonaws.com/static/img/coins/200x200/stratis.png">
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">Hugo tranquilpeak theme</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Sanghun Kang</h4>
+        
+          <h5 class="sidebar-profile-bio">Super bio with markdown support <strong>COOL</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/https://github.com/sanghkaang">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      sample meta
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2017-05-09T00:00:00Z">
+        
+  May 9, 2017
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="/categories/blockchain">blockchain</a>, 
+    
+      <a class="category-link" href="/categories/cryptocurency">cryptocurency</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              
+
+<p><img src="https://steemitimages.com/0x0/https://cdn-images-1.medium.com/max/800/1*lnHRa3D7XxjCp4Fl7hPgHQ.jpeg" alt="" /></p>
+
+<p>안녕하세요.</p>
+
+<p>지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다.
+지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?</p>
+
+<p>이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.</p>
+
+<h1 id="백업방법-1">백업방법 1</h1>
+
+<p><img src="https://lh3.googleusercontent.com/_RsYsgIQcLJApNkjqdiQxX8Jgyj4ZnDW-BvcB8J5aHjj74nvqxgf4o-VX_fQtZ8bJx8Gt_Hm08RWwWawd1MVRAy0z7Q1ThT-wE30-1Y0VUzhZYMtztxRpPTZwZ21dtptgxxHLnYUq5IPhIKiUF9NcsAqYN7lPtK0WQ5wm2uamfyt9enM2ve4OuQqmdMcRfwnOVxWZNbwiNElIDQ870Atzp15It_kXlPtsI1fgCzFia3hjucgwpOoieI5VR1ticn8M-esUHpmFdH3kOdN7cIbtpqgk0LC5EtK5asfb4OxxXsko83anACEMOukaNN7ur-PaLUjqNGUUvNJzf48f5zYEyyE8vJaPmJdgMQt0wb-f1snXph1XWQyh0Xlxa3kWb9PEjAGZ319YM3apswP3lipa8hxpBdg1hM_gyJnq12aRid4b-Mjuq05kHoze3N9RGiHWUNoUWMMnKotY_sTTLjZRuscnNJJrzKxCx_IbDrX4qQypL3v0f44pHRHxEIP5G7YBJ802fSha_o8CjTA7fkt-ftFrPLKBA3As9vNIsHQ-zBMxr2YQjEAPL5eNEuVa7iMeEKNW06swNqA7dEcI8hSab_VLivPxjJgf7QCEC3rpEQR3A6wnEqwDECo2248qqhX9YcNP-ZOdc86lAj1KT3XCAoXA0Rw4CiWoMOP=w796-h414-no" alt="" />
+-   간단하게 <code>파일 -&gt; 지갑 백업</code>을 통해 백업 파일을 만들 수 있습니다.</p>
+
+<p><img src="https://lh3.googleusercontent.com/144qg04MUwMxC8OSyrHUK6M2QVp9iXZNKTB_e4jECPvCSjStjv5TUX5UQtSKjKij3t9g0wv1H0y5gNdfxcx1yTTE66IGmahcTdwhtEQhJUumOyzcqTPs8ToqML1d4H0EEWeih449KNnnvfzymeppdHLqIkv-35SoVtyIDNb_Ds4g6o79xquqnvsF7a60XXgvR3lUHPMCuwfOGiY9UoyeaLDLFG0o8niJTuGkpoKX2Y8tHggAurd6tryXtoQdDk97p_z_opaoZC8jjxYf41vZiGEGjb7BPrPqqQbsOQnNvsuE30gH1cVTgIWV9Ah7VoaHPVgZNtD8WowupQn89FfPMgsPFC3Ivxk4y6CHaYcQieRqRGEmyjvxn7kap-XkV40qvCL7lcbQNHK8jRzAOzd3A2h4AgxVum9iXC3fQY3F5qq4B70CpkO5BHfpF9ivURRNtwiFb0qatEXlNP1U6cfdlkwH0x7qjYlITjWUFOk4_BUpExZvY2qsBHzFn_EKJys84RSDtIdsLALa2Z_5zauwAVZK3XxSc8CuaOYlJRL3cMiZ76u5BRSua-mCFHYGxh-RjLjQv5mTzS8M9A5CZRnXdxCDzwPLVYIvtSVGS49QPuaafY3_cbLtx--ds7SJf8VFJ6s341JNbL3vzEmBAHYTHi0diIbK43OP8jnq=w1410-h1178-no" alt="" />
+-   원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다.
+-   이름은 원하는대로 설정 가능하지만 일반적으로는 <code>wallet</code>으로 하는걸 추천드립니다.(복원할떄 파일 이름이 <code>wallet.dat</code>이어야 복원가능함)
+-   저는 <strong>백업파일을 압축하여 암호를 걸어둔 뒤</strong> USB, 그리고 클라우드에 보관중입니다.</p>
+
+<h1 id="백업방법-2">백업방법 2</h1>
+
+<p><img src="https://lh3.googleusercontent.com/CzlwtUxbH5_yaT6N1Y__yR8tK0xgefA3-a9tCgpDG-9Q2HIsLapYB-e06zEdoTC8keWF2fDX1p3Bqqihch1BAjcDtAGIs2Foc7FBH1Pyx1E0My6OIegSK_S0iSNzYAFQUL3bS8PTtEYffC6ASJlKh7u9QLvnj_dwBJnh7AvmSWdWG37M0iV55yXk2Al8-ZgWv7rv__jsPofxaj1zpDUVmIndzIpuStGs7lj8oamU1C14RFLfm0p-D8K1cgspu_HlRGic5VHWBl1FkwIs-uHgLtlWwpY0-geUMtxLSVhgaOLKk8OHG4yPgZ2zWHpAYWTgzVJQCknuKcIN3N47d3bKbeY6N3OzasNr_AJmg14L13usxQHTumqyZQOEVsSD8NbxvGoFufu5o1X4iplmY9ScnLyWDDccul8NB6bd_GgZf2PpggyYFtk_zFpWKOXvi5RSfT-6daa02tHqNIQbY5D_EiHf2JzCPLx0WZueYYKCE5afSeVSyW1Jy8M_yg6yFHHu5Wf_f4yFOdC4pAr7HBVGqn0tXTvJuxpMV0etiA0CIwf1qsZ1bgFFIo-ZfBbHHJAGJM8Hlz0-AmuiYZbZ90gR2renMl5y8pHGcQyc1rid5VMP0zgNzsXKGAKJauCyIs9cYggsxff-FZQ8958zi3sOa-L11aHUDZqCoPBo=w2276-h1230-no" alt="" />
+-   위의 방법으로 <code>wallet.dat</code>파일을 생성해도 되지만 스트라티스 지갑을 설치하셨다면 이미 <code>wallet.dat</code>파일이 생성되어있습니다. 이 파일을 복사해서 백업파일로 사용하셔도 됩니다.
+-   <strong>각 운영체제별로 wallet.dat 경로가 다릅니다.</strong> 아래의 내용을 참조해주세요.
+-   윈도우의 경우, 예를 들어 로그인계정이 <code>sanghun</code>이라면 <code>wallet.dat</code>의 경로는 *C:\Users\sanghun\AppData\Roaming\Stratis\wallet.dat*입니다.</p>
+
+<pre><code>Windows: C:\Users\&lt;로그인한유저명&gt;\AppData\Roaming\Stratis\wallet.dat
+Mac: ~/Library/Application Support/stratis/wallet.dat
+Linux:  ~/.stratis/wallet.dat
+</code></pre>
+
+<h1 id="복구방법">복구방법</h1>
+
+<ul>
+<li>컴퓨터를 포맷해서 지갑이 날라갔거나, 지갑을 다른곳으로 옮기고싶을떄 위에서 만들어둔 백업파일을 사용하면 됩니다.</li>
+<li>백업파일을 아래의 경로에 넣어주세요.</li>
+</ul>
+
+<pre><code>Windows: C:\Users\&lt;로그인한유저명&gt;\AppData\Roaming\Stratis\wallet.dat
+Mac: ~/Library/Application Support/stratis/wallet.dat
+Linux:  ~/.stratis/wallet.dat
+</code></pre>
+
+<p>생각보다 쉽죠? 이게 끝입니다. 간단한 방법으로 이렇게 가상화폐를 지킬수 있습니다. 최근 거래소를 타겟으로한 ddos공격이 늘고 있습니다. 혹시 거래소에 스트라티스를 두고 계시다면 이번 기회에 꼭 개인지갑을 생성해서 개인지갑에 보관하는걸 추천드립니다.</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/stratis/">stratis</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/blockchain/">blockchain</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/cryptocurrency/">cryptocurrency</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/wallet/">wallet</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/linux/">linux</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/" data-tooltip="github.io 블로그를 만들어 보자">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/" data-tooltip="스트라티스 qt월렛 리눅스에서 빌드하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2017/05/sample-meta/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2017/05/sample-meta/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2017/05/sample-meta/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/" data-tooltip="github.io 블로그를 만들어 보자">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/" data-tooltip="스트라티스 qt월렛 리눅스에서 빌드하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2017/05/sample-meta/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2017/05/sample-meta/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2017/05/sample-meta/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2F2017%2F05%2Fsample-meta%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2F2017%2F05%2Fsample-meta%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2F2017%2F05%2Fsample-meta%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/cf393553ae5a547d313e21a79b83144e?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Sanghun Kang</h4>
+    
+      <div id="about-card-bio">Super bio with markdown support <strong>COOL</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Data Analyst
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        South Korea
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/07/contents-is-king-by-bill-gates-%EC%A0%84%EB%AC%B8-%EB%B2%88%EC%97%AD/">
+                <h3 class="media-heading">Contents is King by Bill Gates 전문 번역</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>1996년 1월 3일에 쓰여진 글입니다.</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/05/github.io-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90/">
+                <h3 class="media-heading">github.io 블로그를 만들어 보자</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">github page는 무엇인가? https://pages.github.com/ 는 깃허브에서 다이렉트로 호스팅해주는 서비스이다. 무료이다. 단 깃허브 계정 하나에 한 페이지만 만들 수 있다. 개발자들은 주로 포트폴리오나 cv, 또는 개인 블로그로 사용하고있다. 내 블로그인 sanghun.xyz도 깃허브 리포지터리를 이용한 페이지이다. 도메인은 aws에서 구매해 연결했다.
+참조 나는 codecademy의 deploy-a-website를 따라해서 만들었다. 쉽고 친절한 수업이라 따라만 해도 쉽게 웹사이트를 배포할 수 있다. 물론 배포까지만! 그 다음은 개인의 웹개발 역량에 달려있다. 나는 괜찮아보이는 공개 theme를 가져다 썼다. 아래의 방법은 codecademy의 수업을 요약한 것이다.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/05/sample-meta/">
+                <h3 class="media-heading">sample meta</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">안녕하세요.
+지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다. 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
+이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
+백업방법 1 - 간단하게 파일 -&gt; 지갑 백업을 통해 백업 파일을 만들 수 있습니다.
+- 원하는 경로에 원하는 이름으로 백업 파일을 만들수 있습니다. - 이름은 원하는대로 설정 가능하지만 일반적으로는 wallet으로 하는걸 추천드립니다.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">스트라티스 qt월렛 리눅스에서 빌드하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>코인을 거래소에 두는건 위험합니다. 해커들이 호시탐탐 노리고있으며 거래소가 먹튀할 확률도 있습니다.
+소중한 스트라티스를 개인지갑에 소중히 보관하고자 하는 취지에서 이번글을 작성해 봅니다.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/05/otp%EC%95%B1-authy/">
+                <h3 class="media-heading">OTP앱 Authy</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>안녕하세요. 이번글에선 OTP앱인 Authy를 소개드리고자 합니다.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">appsflyer pull api를 이용해 daily report 적재하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">appsflyer pull api를 이용해 raw data 적재하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">apache zeppelin에 postgres DB 연결하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/">
+                <h3 class="media-heading">apache zeppelin의 dynamic form 정리</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>dynamic form을 이용하면 충분히 쓸만한 custom dashboard를 만들 수 있다.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2016/12/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/">
+                <h3 class="media-heading">macOS Sierra에서 virtualenv에 Opencv3 설치</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">feature: &ldquo;opencv-python.png&rdquo;
+python3 설치  간단하게 brew로 설치하자  brew install python3  opencv3 설치  3은 아직 베타라고 한다. 안전한 버전을 원하면 opencv2를 설치하자. 나는 그냥 3설치 했다.  brew tap homebrew/science brew install opencv3 --with-python3 --with-ffmpeg --with-tbb --with-contrib  2016.12.04 임시 설치법  현재 mac OS Sierra에서 Opencv 설치에 문제가 있다. &ndash;HEAD를 추가해 아래 방법대로 하면 된다. (16.12.4 기준) https://github.com/Homebrew/homebrew-science/issues/4104#issuecomment-249362870  brew install opencv3 --HEAD --with-python3 --with-ffmpeg --with-tbb --with-contrib  lookup 만들어주기  Ln -s {opencv의 site-packages} {사용하는 python환경의 site-packages} 형태로 lookup을 만들어 준다.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         22 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://themes.gohugo.io/theme/hugo-tranquilpeak-theme/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = '\/2017\/05\/sample-meta\/';
+          
+            this.page.identifier = '\/2017\/05\/sample-meta\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'sanghkaang';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+    
+  </body>
+</html>
+
