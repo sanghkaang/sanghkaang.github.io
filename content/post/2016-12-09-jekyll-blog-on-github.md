@@ -9,8 +9,11 @@ tags:
 - blog, 
 - github, 
 - codecademy
+thumbnailImage: //s3.amazonaws.com/clarityfm-production/attachments/546/default/logo-jekyll-udemy.png?1393285554
+thumbnailImagePosition: left
 ---
 
+<!--more-->
 
 ## github page는 무엇인가?
 

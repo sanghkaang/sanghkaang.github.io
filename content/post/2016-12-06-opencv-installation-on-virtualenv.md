@@ -12,7 +12,9 @@ tags:
 thumbnailImage: //prateekvjoshi.files.wordpress.com/2015/10/1-main.png
 thumbnailImagePosition: left
 ---
-  feature: "opencv-python.png"
+
+
+<!--more-->
 
 #### python3 설치
 - 간단하게 brew로 설치하자

@@ -15,7 +15,7 @@
 baseURL = ""
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "Keep Moving"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "sanghkaang"
 # googleAnalytics = "UA-123-45"
@@ -159,8 +159,8 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  favicon = "/favicon.png"
-
+  favicon = "/favicon-btc.png"
+  
   # Header configuration
   # The link at the right of the header is customizable
   # You can add a link (as an icon) at the right of the header instead of the author's gravatar image or author's picture.

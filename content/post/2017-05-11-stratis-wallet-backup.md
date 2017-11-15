@@ -1,5 +1,5 @@
 ---
-title: "sample meta"
+title: "stratis wallet backup하기"
 metaAlignment: center
 date: 2017-05-09
 categories:
@@ -15,13 +15,16 @@ thumbnailImage: //files.coinmarketcap.com.s3-website-us-east-1.amazonaws.com/sta
 thumbnailImagePosition: left
 ---
 
-
-
+<!--more-->
 ![](https://steemitimages.com/0x0/https://cdn-images-1.medium.com/max/800/1*lnHRa3D7XxjCp4Fl7hPgHQ.jpeg)
 
 안녕하세요.
 
 지난글에서 지갑을 무사히 설치했다면 이번글에선 지갑을 백업하는법을 알아보겠습니다.
+
+
+
+
 지갑을 무사히 설치하였더라도, 만일의 사태는 발생할 수 있습니다. 지갑이 설치된 컴퓨터가 파손된다면 어떻게 할건가요?
 
 이럴때를 대비해 지갑을 백업해둬야만 합니다. 관리부주의로 가상화폐의 소유권을 잃어버릴수도 있습니다. 이 글을 읽으시는 분들도 반드시 백업파일을 만들어두시길 바랍니다.
