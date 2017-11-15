@@ -7,10 +7,7 @@ metaAlignment: center
 coverMeta: out
 date: 2015-05-13
 categories:
-- tranquilpeak
-- features
-tags:
-- cover image
+- tranquilpeak-sample
 ---
 
 Tranquilpeak integrate a unique "cover image" feature. Open this post to see how this feature sublimate your article.

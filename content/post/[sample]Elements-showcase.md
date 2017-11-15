@@ -2,11 +2,7 @@
 title: "Elements showcase"
 date: 2015-05-28
 categories:
-- tranquilpeak
-- features
-tags:
-- html elements
-- markdown
+- tranquilpeak-sample
 thumbnailImagePosition: left
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg
 ---

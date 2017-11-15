@@ -55,7 +55,7 @@ cd stratisX
 -   터미널에 무수한 명령어들이 뜨며 빌드가 시작됩니다. 30-40분 정도 소요됩니다.
 
 
-<!-- ![](../images/stratis-wallet-on-linux/build.png) -->
+![](https://lh3.googleusercontent.com/6ZAtwnhZEu6co2yF6GuMwQioSRKTTFpmL1oHp1s_hbzDJUihxLECofgBt9RCI8vswgvNCrkvMBzmX9nG4xDm5RUX8zjWihAuVsWcPOc2YqAVdLkDrlTLDSKpc3Rnk9CcfldI0zuM7x5wttKX6iyMKAQQfrqme3hy0RmKofvGoXhl__ZfTONUF9oh7LWiFvzoauOecUpBe5qm4epveXk5x9PY33M-ITMZmhnWLTgAPmZaYMBua99P39uKqGLMS_a2kHxmeICCvSrnmzoaeA3-C5sZmL5VDu_DWELyLS0-tNP5fZ0BNidNIdlJ1xHJk8mL2GRVJnCO-xLZqhT_OnMx6RBqPiO7IgO9pi-7jTG8V2mBagDzImmdH6JRX72hVH8O9kRHsAx6KlrhRN0PKKfA8eEcwcyerp3EBxNVuLdqJ8vLQyCmWZY1-Ac28pPjTay39nrFo8ObHlQgPYb7Oj3kZsKT42Dw2ep4wpRV3Hds5N0zocV7E7oUF5T0YYj5zpGTVR6dVOq8idFRlyI3J1V0aJsagxOL47_3thtfrLaX9uAUtr5U1GIWeRbcxynzrIWfZAMu-94buSib69R7s7DKyW45amj_OS_HaKianvTSMvmJN9rZtZXV_TJZqUub5P4NFpTiNRv4C33cLAocYHYYQ-a5ytK12jN15SY2=w1306-h692-no)
 
 ## 필요없는 데이터 잘라내기
 -   `strip stratisd`
@@ -82,10 +82,10 @@ sudo apt-get install -f build-essential autoconf automake git g++ libtool make u
 
 
 # 끝
--   터미널에서 `stratis-qt`를 입력하시면 아래처럼 잘 실행되는걸 확인할 수 있습니다.
+-   터미널에서 `stratis-qt`를 입력하시면 잘 실행되는걸 확인할 수 있습니다.
 -   안전한 코인투자 되세요
 
-<!-- ![](../images/stratis-wallet-on-linux/stratis-qt.png) -->
+![](https://lh3.googleusercontent.com/jQlabHSaTrvnl0TyY7IgssePldZfWvLQBIiVxe82fbaF01d8FHPC_ZQ874i_zS58A_R7vJxhWsZIR2-aU9bJsddT5XuaKzZ37tOdfzaBiwmJY8UkkKMBEmTQ5mk5z7qivDTSPs6qdYpSKVcqrVgD-nTU4JFNRJCwYq2MmkXcaPuhYxK__tkUdEUY44_e5dJqVUaZ5dCj2c1sbjMS4oDz5xFFLFAKcLKgLuQjUYOJiXArOeBIqpYi0UI0yILNxEHTBxpnRL8wl2YOrJFImo3m5NIMZzfJKhKfjqKZVC9saP3SOK9WhfOUMsoUIgGf_zCxAuMYk9xV-ZSD_WW_kwrQESC__lXqi8WY9UyYqLYlO5_5nx65wHamLsjGncTImzLBx0wHCW8s4alRlUpKt2KSMohZDonXFM5IwsSAJ6_8lGzAMVLyvQYQmcjlxlqChPNbsrV4xpaKCxtBkD4m616vrzVKh1-mfHEvv3zNukm-YZTS0er_RYw__awmmkTdAb0Wxmm53LSsOV8I1BTicF4-xQll0sxyMkNLiLSpYpogKjtbx6UR74EYBNrO-u8zPgEDVLtzUur-x3wcAmNoCygi8xTxy5Lz5Mn5Nv3Avf-P1l57vGk9Z7JAMxB9Vd6vgRy8MGV1_1fy8TAjGOvdEZQofKdMReurkQXk4oOa=w1440-h898-no)
 
 
 

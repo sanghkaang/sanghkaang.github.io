@@ -1,11 +1,18 @@
 ---
-layout: post
 title: "macOS Sierra에서 virtualenv에 Opencv3 설치"
-description: "osx + python3 + opencv3"
-tags: [python, opencv, virtualenv, sierra, osx]
-image:
-  feature: "opencv-python.png"
+metaAlignment: center
+date: 2016-12-06
+categories:
+- dev
+tags:
+- python, 
+- opencv, 
+- virtualenv
+- osx
+thumbnailImage: //prateekvjoshi.files.wordpress.com/2015/10/1-main.png
+thumbnailImagePosition: left
 ---
+  feature: "opencv-python.png"
 
 #### python3 설치
 - 간단하게 brew로 설치하자

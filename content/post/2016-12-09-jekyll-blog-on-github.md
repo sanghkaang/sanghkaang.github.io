@@ -1,11 +1,16 @@
 ---
-layout: post
 title: "github.io 블로그를 만들어 보자"
-description: "무료라서 좋아"
-tags: [jekyll, blog, github, codecademy]
-image:
-  feature:
+metaAlignment: center
+date: 2017-05-09
+categories:
+- dev
+tags:
+- jekyll, 
+- blog, 
+- github, 
+- codecademy
 ---
+
 
 ## github page는 무엇인가?
 
