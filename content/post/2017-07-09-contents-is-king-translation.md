@@ -7,7 +7,7 @@ categories:
 tags:
 - contents
 - billgates
-thumbnailImage: //www.emh.co.kr/images/bill_gates.jpg
+thumbnailImage: //specials-images.forbesimg.com/imageserve/59d502f931358e542c034e76/416x416.jpg?background=000000&cropX1=245&cropX2=2420&cropY1=636&cropY2=2813
 thumbnailImagePosition: left
 ---
 
