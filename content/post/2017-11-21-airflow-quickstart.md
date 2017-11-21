@@ -52,3 +52,5 @@ airflow run example_bash_operator runme_0 2015-01-01
 # run a backfill over 2 days
 airflow backfill example_bash_operator -s 2015-01-01 -e 2015-01-02
 ```
+
+> http://airflow.incubator.apache.org/start.html
