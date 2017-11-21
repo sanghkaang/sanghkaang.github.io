@@ -1,7 +1,7 @@
 ---
 title: "[airflow] 0. Quickstart"
 metaAlignment: center
-date: 2017-11-21 15:00:00
+date: 2017-11-21 15:00:00+09:00
 categories:
 - dev
 tags:

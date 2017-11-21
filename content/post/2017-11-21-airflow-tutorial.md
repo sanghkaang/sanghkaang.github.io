@@ -1,7 +1,8 @@
 ---
 title: "[airflow] 2. 튜토리얼"
 metaAlignment: center
-date: 2017-11-21 17:00:00
+date: 2017-11-21 17:00:00+09:00
+timezone: Asia/Seoul
 categories:
 - dev
 tags:
