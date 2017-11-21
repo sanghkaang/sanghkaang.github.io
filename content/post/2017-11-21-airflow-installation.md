@@ -1,7 +1,7 @@
 ---
 title: "[airflow] 1. 설치"
 metaAlignment: center
-date: 2017-11-21
+date: 2017-11-21 16:00:00
 categories:
 - dev
 tags:

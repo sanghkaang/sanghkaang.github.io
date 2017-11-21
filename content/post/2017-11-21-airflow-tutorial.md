@@ -1,7 +1,7 @@
 ---
 title: "[airflow] 2. 튜토리얼"
 metaAlignment: center
-date: 2017-11-21
+date: 2017-11-21 17:00:00
 categories:
 - dev
 tags:
