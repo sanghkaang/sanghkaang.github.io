@@ -157,13 +157,13 @@
   </url>
   
   <url>
-    <loc>/categories/blockchain/</loc>
+    <loc>/tags/blockchain/</loc>
     <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/blockchain/</loc>
+    <loc>/categories/blockchain/</loc>
     <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -229,14 +229,14 @@
   </url>
   
   <url>
-    <loc>/categories/dev/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <loc>/tags/dev/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dev/</loc>
-    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+    <loc>/categories/dev/</loc>
+    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
