@@ -13,9 +13,9 @@ thumbnailImage: //airflow.apache.org/_images/pin_large.png
 thumbnailImagePosition: left
 ---
 
-<!--more-->
-
 pipeline을 따라 만들어보며 Airflow의 concept, object, usage를 습득하기.
+
+<!--more-->
 
 <!--toc-->
 
