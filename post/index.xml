@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Nov 2017 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 09:52:00 +0900</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[airflow] 3. Jupyter에서 Pyspark 사용하기</title>
+      <link>/2017/11/airflow-3.-jupyter%EC%97%90%EC%84%9C-pyspark-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
+      
+      <guid>/2017/11/airflow-3.-jupyter%EC%97%90%EC%84%9C-pyspark-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[airflow] 2. 튜토리얼</title>

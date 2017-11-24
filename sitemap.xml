@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/11/airflow-3.-jupyter%EC%97%90%EC%84%9C-pyspark-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/11/airflow-2.-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/</loc>
     <lastmod>2017-11-21T17:00:00+09:00</lastmod>
   </url>
@@ -129,7 +134,7 @@
   
   <url>
     <loc>/tags/airflow/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,13 +162,13 @@
   </url>
   
   <url>
-    <loc>/tags/blockchain/</loc>
+    <loc>/categories/blockchain/</loc>
     <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/blockchain/</loc>
+    <loc>/tags/blockchain/</loc>
     <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -206,13 +211,13 @@
   
   <url>
     <loc>/tags/data/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/data-engineering/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,14 +234,14 @@
   </url>
   
   <url>
-    <loc>/tags/dev/</loc>
-    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+    <loc>/categories/dev/</loc>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/dev/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <loc>/tags/dev/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -260,7 +265,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -272,7 +277,7 @@
   
   <url>
     <loc>/tags/open-source/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -314,7 +319,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -350,7 +355,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-11-21T17:00:00+09:00</lastmod>
+    <lastmod>2017-11-23T09:52:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
