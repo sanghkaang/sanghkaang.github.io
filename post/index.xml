@@ -6,10 +6,61 @@
     <description>Recent content in Posts on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 09:52:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MaxOS Hadoop 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hadoop-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hadoop-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;2.7.3기준으로 작성되어있음.</description>
+    </item>
+    
+    <item>
+      <title>MaxOS Hive 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hive-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hive-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MaxOS Hue 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hue-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hue-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;메뉴얼이 잘 되어있습니다.</description>
+    </item>
+    
+    <item>
+      <title>[python]cat을 이용해서 stdin 인풋 주기</title>
+      <link>https://sanghkaang.github.io/2017/12/pythoncat%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-stdin-%EC%9D%B8%ED%92%8B-%EC%A3%BC%EA%B8%B0/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/pythoncat%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-stdin-%EC%9D%B8%ED%92%8B-%EC%A3%BC%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;code&gt;cat iris.txt | python test.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[python]nbviewer 실행시키기</title>
+      <link>https://sanghkaang.github.io/2017/12/pythonnbviewer-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/pythonnbviewer-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;code&gt;cat iris.txt | python test.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[airflow] 3. Jupyter에서 Pyspark 사용하기</title>
@@ -318,6 +369,57 @@
       
       <guid>https://sanghkaang.github.io/1/01/</guid>
       <description>Install the RabbitMQ Server  http://www.rabbitmq.com/install-homebrew.html brew install rabbitmq  Run RabbitMQ Server path 설정  PATH=$PATH:/usr/local/sbin to your .bash_profile  실행  rabbitmq-server 기본 credential user명: guest, password: guest  localhost로 연결시에만 기본 user가 사용 가능하며 다른 연결을 사용할 경우 미리 credential을 설정해야 한다.   Controlling System Limits on OS X  대부분의 OS에서, Max number of open files는 messaging broker로 쓰기엔 턱없이 적다. rabbitmq를 이용하기 위해, production에선 최소한 65536이상, 개발환경에선 4096이상의 Max number of open files를 지정해주는걸 추천.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sanghkaang.github.io/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/1/01/</guid>
+      <description>Docker : docker run &amp;ndash;net=host -it -p 8888:8888 image:version
+docker run -i -t -p 8888:8888 sanghkaang/bootcamp:0.0.3
+Container : jupyter notebook &amp;ndash;ip 0.0.0.0 &amp;ndash;no-browser
+jupyter notebook &amp;ndash;ip=0.0.0.0 &amp;ndash;no-browser &amp;ndash;allow-root
+Host : localhost:8888/tree‌
+도커 여러 쉘 실행 docker exec -it  bash
+도커 커밋하는법 docker commit 컨테이너명 이미지명 도커 push docker push sanghkaang/bootcamp:0.0.5
+도커 카피 docker comp 로컬파일 컨테이너주소:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sanghkaang.github.io/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/1/01/</guid>
+      <description>brew install hugo</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sanghkaang.github.io/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/1/01/</guid>
+      <description>맥 설치  ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; brew install pkg-config node zeromq sudo easy_install pip sudo pip install --upgrade pyzmq jupyter sudo npm install -g ijavascript  설치하고자 하는 가상환경에서 ijsinstall
+ijsnotebook으로 실행</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sanghkaang.github.io/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/1/01/</guid>
+      <description>펠리칸 http://nafiulis.me/making-a-static-blog-with-pelican.html
+pelican-quickstart make devserver
+mkdir blog cd blog pelican-quickstart git init git remote add origin https://github.com/sanghkaang/blog.git git commit -m &amp;ldquo;pelican-quickstart&amp;rdquo; 샘플 md 추가하고 메잌 퍼블리쉬 아웃풋폴ㄹ더가서 git init
+git remote add origin https://github.com/sanghkaang/sanghkaang.github.io.git git commit -m &amp;ldquo;first commit&amp;rdquo; git push -u origin master &amp;mdash;&amp;mdash;레포설정완료하고 커밋까지 완료
+그다음 섭모듈등록 hint: git rm &amp;ndash;cached output 폴더가 아니라파일형태로 보인다면 add하고 커미샇자
+add commit push
+CNAME 알아서 들어감 gui에서 설정하면
+그리고 섭모듈 사용하는법</description>
     </item>
     
   </channel>

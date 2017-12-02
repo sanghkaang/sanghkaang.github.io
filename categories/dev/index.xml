@@ -6,10 +6,61 @@
     <description>Recent content in Dev on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 09:52:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MaxOS Hadoop 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hadoop-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hadoop-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;2.7.3기준으로 작성되어있음.</description>
+    </item>
+    
+    <item>
+      <title>MaxOS Hive 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hive-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hive-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MaxOS Hue 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hue-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hue-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;메뉴얼이 잘 되어있습니다.</description>
+    </item>
+    
+    <item>
+      <title>[python]cat을 이용해서 stdin 인풋 주기</title>
+      <link>https://sanghkaang.github.io/2017/12/pythoncat%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-stdin-%EC%9D%B8%ED%92%8B-%EC%A3%BC%EA%B8%B0/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/pythoncat%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-stdin-%EC%9D%B8%ED%92%8B-%EC%A3%BC%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;code&gt;cat iris.txt | python test.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[python]nbviewer 실행시키기</title>
+      <link>https://sanghkaang.github.io/2017/12/pythonnbviewer-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/pythonnbviewer-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;code&gt;cat iris.txt | python test.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[airflow] 3. Jupyter에서 Pyspark 사용하기</title>

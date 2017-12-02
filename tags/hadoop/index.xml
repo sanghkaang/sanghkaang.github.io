@@ -6,10 +6,20 @@
     <description>Recent content in Hadoop on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Nov 2017 13:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/tags/hadoop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MaxOS Hadoop 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/maxos-hadoop-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/maxos-hadoop-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;2.7.3기준으로 작성되어있음.</description>
+    </item>
     
     <item>
       <title>[Intro to Hadoop and MapReduce] Lesson 5 MapReduce Code</title>

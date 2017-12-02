@@ -158,9 +158,27 @@
     <item>
       <title>Hadoop</title>
       <link>https://sanghkaang.github.io/tags/hadoop/</link>
-      <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hive</title>
+      <link>https://sanghkaang.github.io/tags/hive/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/hive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hue</title>
+      <link>https://sanghkaang.github.io/tags/hue/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/hue/</guid>
       <description></description>
     </item>
     
@@ -188,6 +206,24 @@
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://sanghkaang.github.io/tags/mac/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nbviewer</title>
+      <link>https://sanghkaang.github.io/tags/nbviewer/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/nbviewer/</guid>
       <description></description>
     </item>
     
@@ -266,7 +302,7 @@
     <item>
       <title>Python</title>
       <link>https://sanghkaang.github.io/tags/python/</link>
-      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/python/</guid>
       <description></description>
@@ -309,11 +345,29 @@
     </item>
     
     <item>
+      <title>Tutorial</title>
+      <link>https://sanghkaang.github.io/tags/tutorial/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Udacity</title>
       <link>https://sanghkaang.github.io/tags/udacity/</link>
       <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/udacity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>https://sanghkaang.github.io/tags/unix/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/unix/</guid>
       <description></description>
     </item>
     
