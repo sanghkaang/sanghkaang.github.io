@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain on Keep Moving</title>
-    <link>/categories/blockchain/</link>
+    <link>https://sanghkaang.github.io/categories/blockchain/</link>
     <description>Recent content in Blockchain on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanghkaang.github.io/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>stratis wallet backup하기</title>
-      <link>/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/</link>
+      <link>https://sanghkaang.github.io/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://sanghkaang.github.io/2017/05/stratis-wallet-backup%ED%95%98%EA%B8%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>스트라티스 qt월렛 리눅스에서 빌드하기</title>
-      <link>/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</link>
+      <link>https://sanghkaang.github.io/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://sanghkaang.github.io/2017/05/%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</guid>
       <description>&lt;p&gt;코인을 거래소에 두는건 위험합니다. 해커들이 호시탐탐 노리고있으며 거래소가 먹튀할 확률도 있습니다.
 소중한 스트라티스를 개인지갑에 소중히 보관하고자 하는 취지에서 이번글을 작성해 봅니다.
 &lt;/p&gt;</description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>OTP앱 Authy</title>
-      <link>/2017/05/otp%EC%95%B1-authy/</link>
+      <link>https://sanghkaang.github.io/2017/05/otp%EC%95%B1-authy/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/05/otp%EC%95%B1-authy/</guid>
+      <guid>https://sanghkaang.github.io/2017/05/otp%EC%95%B1-authy/</guid>
       <description>&lt;p&gt;안녕하세요. 이번글에선 OTP앱인 Authy를 소개드리고자 합니다.
 &lt;/p&gt;</description>
     </item>

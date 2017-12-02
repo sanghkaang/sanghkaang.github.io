@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtualenv on Keep Moving</title>
-    <link>/tags/virtualenv/</link>
+    <link>https://sanghkaang.github.io/tags/virtualenv/</link>
     <description>Recent content in Virtualenv on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Dec 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/virtualenv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanghkaang.github.io/tags/virtualenv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>macOS Sierra에서 virtualenv에 Opencv3 설치</title>
-      <link>/2016/12/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/</link>
+      <link>https://sanghkaang.github.io/2016/12/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/2016/12/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/</guid>
+      <guid>https://sanghkaang.github.io/2016/12/macos-sierra%EC%97%90%EC%84%9C-virtualenv%EC%97%90-opencv3-%EC%84%A4%EC%B9%98/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     

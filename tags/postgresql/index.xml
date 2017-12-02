@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Postgresql on Keep Moving</title>
-    <link>/tags/postgresql/</link>
+    <link>https://sanghkaang.github.io/tags/postgresql/</link>
     <description>Recent content in Postgresql on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanghkaang.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>appsflyer pull api를 이용해 daily report 적재하기</title>
-      <link>/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</link>
+      <link>https://sanghkaang.github.io/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</link>
       <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://sanghkaang.github.io/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-daily-report-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>appsflyer pull api를 이용해 raw data 적재하기</title>
-      <link>/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</link>
+      <link>https://sanghkaang.github.io/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</link>
       <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://sanghkaang.github.io/2017/02/appsflyer-pull-api%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-raw-data-%EC%A0%81%EC%9E%AC%ED%95%98%EA%B8%B0/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     

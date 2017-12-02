@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hadoop on Keep Moving</title>
+    <link>https://sanghkaang.github.io/tags/hadoop/</link>
+    <description>Recent content in Hadoop on Keep Moving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Nov 2017 13:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://sanghkaang.github.io/tags/hadoop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Intro to Hadoop and MapReduce] Lesson 5 MapReduce Code</title>
+      <link>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-5-mapreduce-code/</link>
+      <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-5-mapreduce-code/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Intro to Hadoop and MapReduce] Lesson 4 Problem set</title>
+      <link>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/</link>
+      <pubDate>Mon, 06 Nov 2017 12:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Intro to Hadoop and MapReduce] Lesson 3 HDFS and MapReduce</title>
+      <link>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-3-hdfs-and-mapreduce/</link>
+      <pubDate>Mon, 06 Nov 2017 11:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-3-hdfs-and-mapreduce/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Intro to Hadoop and MapReduce] Lesson 2 Problem set</title>
+      <link>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-2-problem-set/</link>
+      <pubDate>Mon, 06 Nov 2017 10:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-2-problem-set/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Intro to Hadoop and MapReduce] Lesson 1 Big data</title>
+      <link>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-1-big-data/</link>
+      <pubDate>Mon, 06 Nov 2017 09:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-1-big-data/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

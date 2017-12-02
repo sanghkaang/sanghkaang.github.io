@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zeppelin on Keep Moving</title>
-    <link>/tags/zeppelin/</link>
+    <link>https://sanghkaang.github.io/tags/zeppelin/</link>
     <description>Recent content in Zeppelin on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/zeppelin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanghkaang.github.io/tags/zeppelin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>apache zeppelin에 postgres DB 연결하기</title>
-      <link>/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</link>
+      <link>https://sanghkaang.github.io/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://sanghkaang.github.io/2017/01/apache-zeppelin%EC%97%90-postgres-db-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>apache zeppelin의 dynamic form 정리</title>
-      <link>/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/</link>
+      <link>https://sanghkaang.github.io/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/</guid>
+      <guid>https://sanghkaang.github.io/2017/01/apache-zeppelin%EC%9D%98-dynamic-form-%EC%A0%95%EB%A6%AC/</guid>
       <description>&lt;p&gt;dynamic form을 이용하면 충분히 쓸만한 custom dashboard를 만들 수 있다.&lt;/p&gt;</description>
     </item>
     

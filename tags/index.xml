@@ -2,309 +2,345 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Keep Moving</title>
-    <link>/tags/</link>
+    <link>https://sanghkaang.github.io/tags/</link>
     <description>Recent content in Tags on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Nov 2017 09:52:00 +0900</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanghkaang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Airflow</title>
-      <link>/tags/airflow/</link>
+      <link>https://sanghkaang.github.io/tags/airflow/</link>
       <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
       
-      <guid>/tags/airflow/</guid>
+      <guid>https://sanghkaang.github.io/tags/airflow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Appsflyer</title>
-      <link>/tags/appsflyer/</link>
+      <link>https://sanghkaang.github.io/tags/appsflyer/</link>
       <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/appsflyer/</guid>
+      <guid>https://sanghkaang.github.io/tags/appsflyer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authy</title>
-      <link>/tags/authy/</link>
+      <link>https://sanghkaang.github.io/tags/authy/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/authy/</guid>
+      <guid>https://sanghkaang.github.io/tags/authy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Billgates</title>
-      <link>/tags/billgates/</link>
+      <link>https://sanghkaang.github.io/tags/billgates/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/billgates/</guid>
+      <guid>https://sanghkaang.github.io/tags/billgates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blockchain</title>
-      <link>/tags/blockchain/</link>
+      <link>https://sanghkaang.github.io/tags/blockchain/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blockchain/</guid>
+      <guid>https://sanghkaang.github.io/tags/blockchain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>/tags/blog/</link>
+      <link>https://sanghkaang.github.io/tags/blog/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blog/</guid>
+      <guid>https://sanghkaang.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Codecademy</title>
-      <link>/tags/codecademy/</link>
+      <link>https://sanghkaang.github.io/tags/codecademy/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/codecademy/</guid>
+      <guid>https://sanghkaang.github.io/tags/codecademy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contents</title>
-      <link>/tags/contents/</link>
+      <link>https://sanghkaang.github.io/tags/contents/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/contents/</guid>
+      <guid>https://sanghkaang.github.io/tags/contents/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryptocurrency</title>
-      <link>/tags/cryptocurrency/</link>
+      <link>https://sanghkaang.github.io/tags/cryptocurrency/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cryptocurrency/</guid>
+      <guid>https://sanghkaang.github.io/tags/cryptocurrency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>/tags/data/</link>
+      <link>https://sanghkaang.github.io/tags/data/</link>
       <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
       
-      <guid>/tags/data/</guid>
+      <guid>https://sanghkaang.github.io/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Engineering</title>
-      <link>/tags/data-engineering/</link>
+      <link>https://sanghkaang.github.io/tags/data-engineering/</link>
       <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
       
-      <guid>/tags/data-engineering/</guid>
+      <guid>https://sanghkaang.github.io/tags/data-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Loading</title>
-      <link>/tags/data-loading/</link>
+      <link>https://sanghkaang.github.io/tags/data-loading/</link>
       <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-loading/</guid>
+      <guid>https://sanghkaang.github.io/tags/data-loading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>/tags/database/</link>
+      <link>https://sanghkaang.github.io/tags/database/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/database/</guid>
+      <guid>https://sanghkaang.github.io/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dev</title>
-      <link>/tags/dev/</link>
+      <link>https://sanghkaang.github.io/tags/dev/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dev/</guid>
+      <guid>https://sanghkaang.github.io/tags/dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gemfile</title>
-      <link>/tags/gemfile/</link>
+      <link>https://sanghkaang.github.io/tags/gemfile/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gemfile/</guid>
+      <guid>https://sanghkaang.github.io/tags/gemfile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>/tags/github/</link>
+      <link>https://sanghkaang.github.io/tags/github/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/github/</guid>
+      <guid>https://sanghkaang.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hadoop</title>
+      <link>https://sanghkaang.github.io/tags/hadoop/</link>
+      <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intro to Hadoop and Map Reduce</title>
+      <link>https://sanghkaang.github.io/tags/intro-to-hadoop-and-map-reduce/</link>
+      <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/intro-to-hadoop-and-map-reduce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>/tags/jekyll/</link>
+      <link>https://sanghkaang.github.io/tags/jekyll/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/jekyll/</guid>
+      <guid>https://sanghkaang.github.io/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>https://sanghkaang.github.io/tags/linux/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>https://sanghkaang.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>/tags/open-source/</link>
+      <link>https://sanghkaang.github.io/tags/open-source/</link>
       <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
       
-      <guid>/tags/open-source/</guid>
+      <guid>https://sanghkaang.github.io/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Opencv</title>
-      <link>/tags/opencv/</link>
+      <link>https://sanghkaang.github.io/tags/opencv/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/opencv/</guid>
+      <guid>https://sanghkaang.github.io/tags/opencv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Osx</title>
-      <link>/tags/osx/</link>
+      <link>https://sanghkaang.github.io/tags/osx/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/osx/</guid>
+      <guid>https://sanghkaang.github.io/tags/osx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Otp</title>
-      <link>/tags/otp/</link>
+      <link>https://sanghkaang.github.io/tags/otp/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/otp/</guid>
+      <guid>https://sanghkaang.github.io/tags/otp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pandas</title>
-      <link>/tags/pandas/</link>
+      <link>https://sanghkaang.github.io/tags/pandas/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/pandas/</guid>
+      <guid>https://sanghkaang.github.io/tags/pandas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Postgres</title>
-      <link>/tags/postgres/</link>
+      <link>https://sanghkaang.github.io/tags/postgres/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/postgres/</guid>
+      <guid>https://sanghkaang.github.io/tags/postgres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Postgresql</title>
-      <link>/tags/postgresql/</link>
+      <link>https://sanghkaang.github.io/tags/postgresql/</link>
       <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/postgresql/</guid>
+      <guid>https://sanghkaang.github.io/tags/postgresql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psycopg2</title>
-      <link>/tags/psycopg2/</link>
+      <link>https://sanghkaang.github.io/tags/psycopg2/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/psycopg2/</guid>
+      <guid>https://sanghkaang.github.io/tags/psycopg2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>https://sanghkaang.github.io/tags/python/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://sanghkaang.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby</title>
-      <link>/tags/ruby/</link>
+      <link>https://sanghkaang.github.io/tags/ruby/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ruby/</guid>
+      <guid>https://sanghkaang.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sqlalchemy</title>
-      <link>/tags/sqlalchemy/</link>
+      <link>https://sanghkaang.github.io/tags/sqlalchemy/</link>
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sqlalchemy/</guid>
+      <guid>https://sanghkaang.github.io/tags/sqlalchemy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stratis</title>
-      <link>/tags/stratis/</link>
+      <link>https://sanghkaang.github.io/tags/stratis/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/stratis/</guid>
+      <guid>https://sanghkaang.github.io/tags/stratis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>https://sanghkaang.github.io/tags/study/</link>
+      <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Udacity</title>
+      <link>https://sanghkaang.github.io/tags/udacity/</link>
+      <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/udacity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtualenv</title>
-      <link>/tags/virtualenv/</link>
+      <link>https://sanghkaang.github.io/tags/virtualenv/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/virtualenv/</guid>
+      <guid>https://sanghkaang.github.io/tags/virtualenv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wallet</title>
-      <link>/tags/wallet/</link>
+      <link>https://sanghkaang.github.io/tags/wallet/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/wallet/</guid>
+      <guid>https://sanghkaang.github.io/tags/wallet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zeppelin</title>
-      <link>/tags/zeppelin/</link>
+      <link>https://sanghkaang.github.io/tags/zeppelin/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/zeppelin/</guid>
+      <guid>https://sanghkaang.github.io/tags/zeppelin/</guid>
       <description></description>
     </item>
     
