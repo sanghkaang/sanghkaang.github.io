@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 09:52:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Dec 2017 17:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Airflow</title>
       <link>https://sanghkaang.github.io/tags/airflow/</link>
-      <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
+      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/airflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache</title>
+      <link>https://sanghkaang.github.io/tags/apache/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/apache/</guid>
       <description></description>
     </item>
     
@@ -66,6 +75,15 @@
     </item>
     
     <item>
+      <title>Celery</title>
+      <link>https://sanghkaang.github.io/tags/celery/</link>
+      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/celery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Codecademy</title>
       <link>https://sanghkaang.github.io/tags/codecademy/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
@@ -95,7 +113,7 @@
     <item>
       <title>Data</title>
       <link>https://sanghkaang.github.io/tags/data/</link>
-      <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
+      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/data/</guid>
       <description></description>
@@ -104,7 +122,7 @@
     <item>
       <title>Data Engineering</title>
       <link>https://sanghkaang.github.io/tags/data-engineering/</link>
-      <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
+      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/data-engineering/</guid>
       <description></description>
@@ -183,6 +201,15 @@
     </item>
     
     <item>
+      <title>Installation</title>
+      <link>https://sanghkaang.github.io/tags/installation/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Intro to Hadoop and Map Reduce</title>
       <link>https://sanghkaang.github.io/tags/intro-to-hadoop-and-map-reduce/</link>
       <pubDate>Mon, 06 Nov 2017 13:00:00 +0900</pubDate>
@@ -212,9 +239,18 @@
     <item>
       <title>Mac</title>
       <link>https://sanghkaang.github.io/tags/mac/</link>
-      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mssql</title>
+      <link>https://sanghkaang.github.io/tags/mssql/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/mssql/</guid>
       <description></description>
     </item>
     
@@ -230,7 +266,7 @@
     <item>
       <title>Open Source</title>
       <link>https://sanghkaang.github.io/tags/open-source/</link>
-      <pubDate>Thu, 23 Nov 2017 09:52:00 +0900</pubDate>
+      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/open-source/</guid>
       <description></description>
@@ -300,11 +336,38 @@
     </item>
     
     <item>
+      <title>Pymssql</title>
+      <link>https://sanghkaang.github.io/tags/pymssql/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/pymssql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyspark</title>
+      <link>https://sanghkaang.github.io/tags/pyspark/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/pyspark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>https://sanghkaang.github.io/tags/python/</link>
-      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rabbitmq</title>
+      <link>https://sanghkaang.github.io/tags/rabbitmq/</link>
+      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/rabbitmq/</guid>
       <description></description>
     </item>
     
@@ -314,6 +377,15 @@
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>https://sanghkaang.github.io/tags/spark/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/spark/</guid>
       <description></description>
     </item>
     

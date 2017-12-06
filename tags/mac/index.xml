@@ -6,10 +6,28 @@
     <description>Recent content in Mac on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Mac] Aache Spark 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/mac-aache-spark-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/mac-aache-spark-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Mac] pymssql 설치 에러날경우</title>
+      <link>https://sanghkaang.github.io/2017/12/mac-pymssql-%EC%84%A4%EC%B9%98-%EC%97%90%EB%9F%AC%EB%82%A0%EA%B2%BD%EC%9A%B0/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/mac-pymssql-%EC%84%A4%EC%B9%98-%EC%97%90%EB%9F%AC%EB%82%A0%EA%B2%BD%EC%9A%B0/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>MaxOS Hadoop 설치</title>

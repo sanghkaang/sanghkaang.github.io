@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pyspark on Keep Moving</title>
+    <link>https://sanghkaang.github.io/tags/pyspark/</link>
+    <description>Recent content in Pyspark on Keep Moving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sanghkaang.github.io/tags/pyspark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Mac] Aache Spark 설치</title>
+      <link>https://sanghkaang.github.io/2017/12/mac-aache-spark-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/mac-aache-spark-%EC%84%A4%EC%B9%98/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
