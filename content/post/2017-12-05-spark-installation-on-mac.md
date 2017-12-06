@@ -34,7 +34,7 @@ brew cask install java8
 ```
 
 - 2017-12-05 현재 Spark는 Java9를 지원하지 않는다.
-ㅍ- 그러므로 java8을 설치해야한다.
+- 그러므로 java8을 설치해야한다.
 - 아래처럼 본인의 version에 맞는 path를 .bashrc(또는 .zshrc)에 지정해준다.
 - `export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home"`
 
@@ -50,7 +50,7 @@ brew install scala
 ```sh 
 export SCALA_HOME=/usr/local/Cellar/scala/2.12.4/libexec
 export PATH=$PATH:$SCLAL_HOME/bin
-```ㅍ
+```
 
 # Spark 설치
 
@@ -170,8 +170,7 @@ import os
 exec(open(os.path.join(os.environ["SPARK_HOME"], 'python/pyspark/shell.py')).read())
 ```
 
+# 참조
 
-
-> 참조
 > https://github.com/minrk/findspark
 > https://gist.github.com/ololobus/4c221a0891775eaa86b0

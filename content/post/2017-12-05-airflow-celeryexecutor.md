@@ -73,6 +73,9 @@ celery_result_backend = amqp://sanghun:sanghun@localhost:5672/airflow_vhost
 # celery_result_backend는 
 # 1. broker_url과 동일하게 하거나 
 # 2. meta db url(sql_alchemy_conn)을 적어주면 된다.
+
+donot_pickle=True
+# 이 옵션을 수정해줘야 CeleryExecutor가 실행된다. 이유는 모르겠다. 
 ```
 
 # meta db 설정
