@@ -1,5 +1,5 @@
 ---
-title: "[Mac] Aache Spark 설치"
+title: "[Mac] Apche Spark 설치"
 metaAlignment: center
 date: 2017-12-05
 categories:
@@ -12,7 +12,7 @@ tags:
 - mac
 thumbnailImage: //www.iiitmk.ac.in/delab/img/resources/spark.jpg
 thumbnailImagePosition: left
-coverImage: //commons.wikimedia.org/wiki/File:Apache_Spark_logo.svg
+coverImage: https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg
 coverMeta: out
 coverSize: full
 ---
