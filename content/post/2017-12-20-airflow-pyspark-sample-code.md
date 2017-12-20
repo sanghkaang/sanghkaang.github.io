@@ -11,7 +11,7 @@ tags:
 - open source
 - rabbitmq
 - celery
-thumbnailImage: //airflow.apache.org/_images/pin_large.png
+thumbnailImage: https://github.com/n-riesco/ijavascript/blob/master/images/logo-128x128.png
 thumbnailImagePosition: left
 ---
 
@@ -28,6 +28,7 @@ Airflow에서 Pyspark task 실행하기
 - 병렬로 task가 수행된다는걸 보여주기위해 sleep task를 만들었다.
 - gantt를 보면 data_download가 완료된 후, 동시에 나머지 두개의 task가 실행되는걸 확인할 수 있다.
 
+![](https://i.imgur.com/53hblz1.png)
 
 ```py
 from airflow import DAG
