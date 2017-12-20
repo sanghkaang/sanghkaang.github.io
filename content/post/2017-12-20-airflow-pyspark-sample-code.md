@@ -11,7 +11,7 @@ tags:
 - open source
 - rabbitmq
 - celery
-thumbnailImage: https://github.com/n-riesco/ijavascript/blob/master/images/logo-128x128.png
+thumbnailImage: //airflow.apache.org/_images/pin_large.png
 thumbnailImagePosition: left
 ---
 

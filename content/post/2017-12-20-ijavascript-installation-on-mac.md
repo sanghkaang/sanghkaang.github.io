@@ -8,7 +8,7 @@ tags:
 - jupyter
 - javascript
 - ijavascript
-thumbnailImage: //github.com/n-riesco/ijavascript/blob/master/images/logo-128x128.png
+thumbnailImage: https://raw.githubusercontent.com/n-riesco/ijavascript/HEAD/images/logo-128x128.png
 thumbnailImagePosition: left
 ---
 
