@@ -6,10 +6,19 @@
     <description>Recent content in Rabbitmq on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 13:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2017 14:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[airflow] 6. Multi cluster에서 airflow 실행하기</title>
+      <link>https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 20 Dec 2017 14:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[airflow] 5. Pyspark sample code on airflow</title>

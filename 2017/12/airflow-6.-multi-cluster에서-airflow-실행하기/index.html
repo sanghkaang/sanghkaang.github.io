@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.30.2 with theme Tranquilpeak 0.4.3-BETA">
-    <title>[Intro to Hadoop and MapReduce] Lesson 4 Problem set</title>
+    <title>[airflow] 6. Multi cluster에서 airflow 실행하기</title>
     <meta name="author" content="Sanghun Kang">
     <meta name="keywords" content="">
 
@@ -33,8 +33,8 @@
     <meta name="description" content="">
     <meta property="og:description" content="">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="[Intro to Hadoop and MapReduce] Lesson 4 Problem set">
-    <meta property="og:url" content="/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+    <meta property="og:title" content="[airflow] 6. Multi cluster에서 airflow 실행하기">
+    <meta property="og:url" content="/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
     <meta property="og:site_name" content="Keep Moving">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Keep Moving">
@@ -50,7 +50,7 @@
     
 
     
-      <meta property="og:image" content="//tr4.cbsistatic.com/hub/i/r/2014/02/05/7edb6d5b-1151-4824-a8b7-6bd554f0ded5/resize/770x/293413c3bb9555b7d22aac146fa8b928/hadoop.logo.tr.jpg">
+      <meta property="og:image" content="//airflow.apache.org/_images/pin_large.png">
     
     
     
@@ -205,15 +205,15 @@
             <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title" itemprop="headline">
-      [Intro to Hadoop and MapReduce] Lesson 4 Problem set
+      [airflow] 6. Multi cluster에서 airflow 실행하기
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2017-11-06T12:00:00&#43;09:00">
+      <time itemprop="datePublished" datetime="2017-12-20T14:00:00&#43;09:00">
         
-  November 6, 2017
+  December 20, 2017
 
       </time>
     
@@ -234,70 +234,214 @@
             <div class="main-content-wrap">
               <p></p>
 
-<h1 id="1-quiz-hdfs">1. Quiz: HDFS</h1>
+<h1 id="table-of-contents">Table of Contents</h1><nav id="TableOfContents">
+<ul>
+<li><a href="#요약">요약</a></li>
+<li><a href="#airflow-configuration">airflow configuration</a></li>
+<li><a href="#두개의-인스턴스에서-각각-worker-실행하기">두개의 인스턴스에서 각각 worker 실행하기</a></li>
+<li><a href="#task가-실행될-worker를-명시적으로-지정하기">task가 실행될 worker를 명시적으로 지정하기</a></li>
+<li><a href="#1번-인스턴스에서">1번 인스턴스에서</a></li>
+<li><a href="#2번-인스턴스에서">2번 인스턴스에서</a></li>
+<li><a href="#참조">참조</a></li>
+</ul>
+</nav>
 
-<p>Which of the following is true?</p>
+<h1 id="요약">요약</h1>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> HDFS uses a central SAN(storage area network) to hold its data</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> HDFS stores a single copy of all data</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> HDFS replicates all data for reliability</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> To store 100TB of data in a Hadoop cluster you would need 300TB of raw disk space by default</label></li>
+<ul>
+<li>다루는 내용
+
+<ul>
+<li>분산 인스턴스에서 각각 airflow worker를 실행하고 task를 분산해서 실행하는법</li>
+<li>task가 실행될 worker를 명시적으로 지정하는법</li>
+</ul></li>
+<li>테스트 환경
+
+<ul>
+<li>두 개의 Amazon EC2 Instance 사용</li>
+<li>1번 Instance에 아래와 같이 셋팅
+
+<ul>
+<li>metadata database(postsgres)</li>
+<li>rabbitmq</li>
+<li>airflow webserver</li>
+<li>airflow worker</li>
+</ul></li>
+<li>2번 Instance에 아래와 같이 셋팅
+
+<ul>
+<li>airflow worker</li>
+</ul></li>
+</ul></li>
 </ul>
 
-<h1 id="2-quiz-datanode">2. Quiz: DataNode</h1>
+<h1 id="airflow-configuration">airflow configuration</h1>
 
-<p>Which of the following is true if one of the nodes running the DataNode daemon on the cluster fails?</p>
+<ul>
+<li>1번과 2번 instance에 airflow를 설치한다.</li>
+<li>dag폴더에 동일한 파일을 넣어준다.</li>
+<li>dag폴더를 Git repository로 세팅하고 Chef, Puppet, Ansible등으로 동기화 해주는 방법도 있다.</li>
+<li>1번과 2번 instance에 airflow를 설치하고 동일한 설정값을 준다.
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> Data could be lost</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Hadoop will automatically re-replicate any blocks which were stored on that node</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Hadoop will automatically e-mail the system administrator warning of the problem</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Hadoop will continue but from now on there will now only be two copies of some block</label></li>
+<ul>
+<li>CeleryExecutor를 사용할것.</li>
+<li>동일한 metadata database, broker_url, celery_result_backend를 설정해준다.</li>
+</ul></li>
 </ul>
 
-<h1 id="3-quiz-namenode">3. Quiz: NameNode</h1>
+<pre><code class="language-sh">executor=CeleryExecutor
 
-<p>What precautions can you take to reduce the likelihood of problems related to NameNode failure?</p>
+# 1번 Instance의 ip(13.124.213.43)를 이용해 metadata database 접속
+sql_alchemy_conn = postgresql+psycopg2://airflow:airflow@13.124.213.43/airflow
 
-<ul class="task-list">
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Configure the NameNode to store its metadata in a second location using NFS</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Configure a standby NameNode</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Run a NameNode daemon on every node in the cluster</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Make sure the NameNode is running on high-end hardware</label></li>
+broker_url = amqp://rabbitmq_airflow_user:rabbitmq_airflow_user@13.124.213.43:5672/rabbitmq_airflow_vhost
+
+celery_result_backend = amqp://rabbitmq_airflow_user:rabbitmq_airflow_user@13.124.213.43:5672/rabbitmq_airflow_vhost
+</code></pre>
+
+<h1 id="두개의-인스턴스에서-각각-worker-실행하기">두개의 인스턴스에서 각각 worker 실행하기</h1>
+
+<p><img src="https://i.imgur.com/uMU5KjD.jpg" alt="" /></p>
+
+<ul>
+<li>왼쪽은 1번 인스턴스, 오른쪽은 2번 인스턴스이다.</li>
+<li>metadata database는 1번 인스턴스에 위치해있다.</li>
+<li>rabbitmq, airflow webserver는 1번 인스턴스에서 실행시킨다.</li>
+<li>airflow worker는 1번과 2번 인스턴스에서 실행시킨다.</li>
 </ul>
 
-<h1 id="4-quiz-mapreduce">4. Quiz: MapReduce</h1>
+<p><img src="https://i.imgur.com/0lAXQ51.jpg" alt="" /></p>
 
-<p>If you run a MapReduce job and specify an output directory in HDFS which already exists, which of the following happens?</p>
-
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> The previous directory will be deleted</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> The previous directory will be renamed with __old after its name</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> The job will refuse to run</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> The job will run and new files will be put in the existing directory</label></li>
+<ul>
+<li><a href="https://airflow.apache.org/tutorial.html">tutorial DAG</a>를 실행해보면 1번 worker와 2번 worker에서 task가 분산되어 실행되는걸 확인할 수 있다.</li>
 </ul>
 
-<h1 id="5-quiz-key">5. Quiz: Key</h1>
+<h1 id="task가-실행될-worker를-명시적으로-지정하기">task가 실행될 worker를 명시적으로 지정하기</h1>
 
-<p>Think about the data set we used in Lesson 2. If we wanted to work out how many people had purchased goods using a particular credit card, what could we use as the key emitted by the Mappers?</p>
+<ol>
+<li><p>worker를 실행할때 queue를 지정해준다.
+```sh</p>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> The store name</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> The product description</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> The purchase method</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> The purchase price</label></li>
+<h1 id="1번-인스턴스에서">1번 인스턴스에서</h1>
+
+<p>airflow worker -q q1</p></li>
+</ol>
+
+<h1 id="2번-인스턴스에서">2번 인스턴스에서</h1>
+
+<p>airflow worker -q q2</p>
+
+<pre><code>
+2. task를 정의할때 queue parameter에 task가 실행될 queue를 지정해준다.
+
+```py
+dag = DAG(
+    'test-queue', default_args=default_args, schedule_interval=timedelta(1))
+
+t1 = BashOperator(
+    task_id='t1',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q1&quot;,
+    dag=dag)
+
+t2 = BashOperator(
+    task_id='t2',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q2&quot;,
+    dag=dag)
+
+t3 = BashOperator(
+    task_id='t3',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q1&quot;,
+    dag=dag)
+
+t4 = BashOperator(
+    task_id='t4',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q2&quot;,
+    dag=dag)
+
+
+t2.set_upstream(t1)
+t3.set_upstream(t2)
+t4.set_upstream(t3)
+</code></pre>
+
+<p><img src="https://i.imgur.com/OSOzC6J.jpg" alt="" />
+<img src="https://i.imgur.com/xouSeVf.jpg" alt="" /></p>
+
+<ul>
+<li>지정해준대로 t1, t3는 q1에서 실행되었고 t3, t4는 q2에서 실행되었다.</li>
+<li>task를 정의할때 queue를 지정해주고 worker를 실행할때 queue를 지정해주지 않는다면 task가 존재해도 worker가 이를 처리하지 않는다.</li>
+<li>서로 다른 인스턴스에 각각 worker가 있기에, 따로 설정을 해주지 않는다면 log역시 각각의 인스턴스에 기록된다.</li>
+<li>test-queue.py의 전체 코드는 아래와 같다.</li>
 </ul>
 
-<h1 id="6-quiz-block-size">6. Quiz: Block Size</h1>
+<pre><code class="language-py">&quot;&quot;&quot;
+Code that goes along with the Airflow located at:
+http://airflow.readthedocs.org/en/latest/tutorial.html
+&quot;&quot;&quot;
+from airflow import DAG
+from airflow.operators.bash_operator import BashOperator
+from airflow.operators.python_operator import PythonOperator
+from datetime import datetime, timedelta
+import os
 
-<p>Why is Hadoop&rsquo;s block size set to 64MB by default, when most filesystem have block sizes of 16KB or less?</p>
 
-<ul class="task-list">
-<li><label><input type="checkbox" checked disabled class="task-list-item"> If Hadoop&rsquo;s block size was set to 16KB, there would be a huge number of blocks throughout the cluster, which causes the NameNode to manage an enormous amount of metatada</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Since we need a Mapper for each block that we want to process, there would be a lot of Mappers, each processing a piece bit of data, which isn&rsquo;t efficient</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Because you can only store one block per node on the cluster</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Because a 16KB block is too small for multiple Mappers to process simultaneously</label></li>
+default_args = {
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'start_date': datetime(2015, 6, 1),
+    'email': ['airflow@airflow.com'],
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+    # 'queue': 'bash_queue',
+    # 'pool': 'backfill',
+    # 'priority_weight': 10,
+    # 'end_date': datetime(2016, 1, 1),
+}
+
+dag = DAG(
+    'test-queue', default_args=default_args, schedule_interval=timedelta(1))
+
+t1 = BashOperator(
+    task_id='t1',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q1&quot;,
+    dag=dag)
+
+t2 = BashOperator(
+    task_id='t2',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q2&quot;,
+    dag=dag)
+
+t3 = BashOperator(
+    task_id='t3',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q1&quot;,
+    dag=dag)
+
+t4 = BashOperator(
+    task_id='t4',
+    bash_command=&quot;sleep 1&quot;,
+    queue=&quot;q2&quot;,
+    dag=dag)
+
+
+t2.set_upstream(t1)
+t3.set_upstream(t2)
+t4.set_upstream(t3)
+</code></pre>
+
+<h1 id="참조">참조</h1>
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/43186335/assigning-tasks-to-specific-machines-with-airflow">https://stackoverflow.com/questions/43186335/assigning-tasks-to-specific-machines-with-airflow</a></li>
+<li><a href="https://airflow.apache.org/cli.html">https://airflow.apache.org/cli.html</a></li>
 </ul>
               
             </div>
@@ -310,13 +454,17 @@
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">TAGGED IN</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/hadoop/">hadoop</a>
+  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/data-engineering/">data engineering</a>
 
-  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/study/">study</a>
+  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/data/">data</a>
 
-  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/udacity/">udacity</a>
+  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/airflow/">airflow</a>
 
-  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/intro-to-hadoop-and-map-reduce/">intro-to-hadoop-and-map-reduce</a>
+  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/open-source/">open source</a>
+
+  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/rabbitmq/">rabbitmq</a>
+
+  <a class="tag tag--primary tag--small" href="https://sanghkaang.github.io/tags/celery/">celery</a>
 
                   </div>
                 
@@ -329,7 +477,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-5-mapreduce-code/" data-tooltip="[Intro to Hadoop and MapReduce] Lesson 5 MapReduce Code">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -337,7 +485,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-3-hdfs-and-mapreduce/" data-tooltip="[Intro to Hadoop and MapReduce] Lesson 3 HDFS and MapReduce">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/" data-tooltip="[airflow] 5. Pyspark sample code on airflow">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -355,19 +503,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -382,7 +530,7 @@
       
       <li class="post-action">
         
-          <a class="post-action-btn btn btn--default" href="#">
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
         
           <i class="fa fa-list"></i>
         </a>
@@ -415,7 +563,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-5-mapreduce-code/" data-tooltip="[Intro to Hadoop and MapReduce] Lesson 5 MapReduce Code">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -423,7 +571,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-3-hdfs-and-mapreduce/" data-tooltip="[Intro to Hadoop and MapReduce] Lesson 3 HDFS and MapReduce">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/" data-tooltip="[airflow] 5. Pyspark sample code on airflow">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -441,19 +589,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://sanghkaang.github.io/2017/11/intro-to-hadoop-and-mapreduce-lesson-4-problem-set/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -468,7 +616,7 @@
       
       <li class="post-action">
         
-          <a class="post-action-btn btn btn--default" href="#">
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
         
           <i class="fa fa-list"></i>
         </a>
@@ -483,19 +631,19 @@
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsanghkaang.github.io%2F2017%2F11%2Fintro-to-hadoop-and-mapreduce-lesson-4-problem-set%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsanghkaang.github.io%2F2017%2F12%2Fairflow-6.-multi-cluster%25EC%2597%2590%25EC%2584%259C-airflow-%25EC%258B%25A4%25ED%2596%2589%25ED%2595%2598%25EA%25B8%25B0%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fsanghkaang.github.io%2F2017%2F11%2Fintro-to-hadoop-and-mapreduce-lesson-4-problem-set%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fsanghkaang.github.io%2F2017%2F12%2Fairflow-6.-multi-cluster%25EC%2597%2590%25EC%2584%259C-airflow-%25EC%258B%25A4%25ED%2596%2589%25ED%2595%2598%25EA%25B8%25B0%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fsanghkaang.github.io%2F2017%2F11%2Fintro-to-hadoop-and-mapreduce-lesson-4-problem-set%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fsanghkaang.github.io%2F2017%2F12%2Fairflow-6.-multi-cluster%25EC%2597%2590%25EC%2584%259C-airflow-%25EC%258B%25A4%25ED%2596%2589%25ED%2595%2598%25EA%25B8%25B0%2F">
           <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
         </a>
       </li>
@@ -765,9 +913,9 @@
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/sanghkaang.github.io\/2017\/11\/intro-to-hadoop-and-mapreduce-lesson-4-problem-set\/';
+          this.page.url = 'https:\/\/sanghkaang.github.io\/2017\/12\/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0\/';
           
-            this.page.identifier = '\/2017\/11\/intro-to-hadoop-and-mapreduce-lesson-4-problem-set\/'
+            this.page.identifier = '\/2017\/12\/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0\/'
           
         };
         (function() {
