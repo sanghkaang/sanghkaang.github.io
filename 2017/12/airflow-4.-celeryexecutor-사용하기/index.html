@@ -246,7 +246,10 @@
 <ul>
 <li><a href="#rabbitmq-celery-설치">Rabbitmq, Celery 설치</a></li>
 <li><a href="#rabbitmq-설정">Rabbitmq 설정</a></li>
-<li><a href="#airflow-cfg-수정">airflow.cfg 수정</a></li>
+<li><a href="#airflow-cfg-수정">airflow.cfg 수정</a>
+<ul>
+<li><a href="#localhost">localhost??</a></li>
+</ul></li>
 <li><a href="#meta-db-설정">meta db 설정</a></li>
 <li><a href="#실행">실행</a></li>
 <li><a href="#참조">참조</a></li>
@@ -263,6 +266,8 @@
 
 <pre><code class="language-sh">brew install rabbitmq
 pip install celery
+# rabbitmq web ui 사용가능하게 하기
+# rabbitmq-plugins enable rabbitmq_management
 </code></pre>
 
 <ul>
@@ -308,6 +313,23 @@ donot_pickle=True
 # 이 옵션을 수정해줘야 CeleryExecutor가 실행된다. 이유는 모르겠다. 
 </code></pre>
 
+<h2 id="localhost">localhost??</h2>
+
+<p>localhost가 아닐 경우도 있다. rabbitmq-server를 실행하면 아래처럼 메세지가 나온다.</p>
+
+<pre><code class="language-sh">ubuntu@ip-172-19-32-248:~/airflow/dags$ sudo rabbitmq-server
+
+              RabbitMQ 3.5.7. Copyright (C) 2007-2015 Pivotal Software, Inc.
+  ##  ##      Licensed under the MPL.  See http://www.rabbitmq.com/
+  ##  ##
+  ##########  Logs: /var/log/rabbitmq/rabbit@ip-172-19-32-248.log
+  ######  ##        /var/log/rabbitmq/rabbit@ip-172-19-32-248-sasl.log
+  ##########
+              Starting broker... completed with 6 plugins.
+</code></pre>
+
+<p>여기서는 localhost가 아닌 <strong>ip-172-19-32-248</strong>를 broker_url, celery_result_backend에 적어줘야 한다.</p>
+
 <h1 id="meta-db-설정">meta db 설정</h1>
 
 <pre><code class="language-sh"># Modify /usr/local/var/postgres/pg_hba.conf to add Client Authentication Record
@@ -327,6 +349,10 @@ psql -U [postgres_user_name] -h [postgres_host_name] -d [postgres_database_name]
 
 # IMPORTANT: update your sql_alchemy_conn string in airflow.cfg
 </code></pre>
+
+<blockquote>
+<p><a href="http://suite.opengeo.org/docs/latest/dataadmin/pgGettingStarted/firstconnect.html">http://suite.opengeo.org/docs/latest/dataadmin/pgGettingStarted/firstconnect.html</a></p>
+</blockquote>
 
 <h1 id="실행">실행</h1>
 
@@ -383,7 +409,7 @@ airflow scheduler
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/12/mac-ijavascript-%EC%84%A4%EC%B9%98/" data-tooltip="[Mac] Ijavascript 설치">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -469,7 +495,7 @@ airflow scheduler
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://sanghkaang.github.io/2017/12/mac-ijavascript-%EC%84%A4%EC%B9%98/" data-tooltip="[Mac] Ijavascript 설치">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -606,6 +632,42 @@ airflow scheduler
       <div class="no-result text-color-light text-center">no post found</div>
       <div class="results">
         
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/">
+                <h3 class="media-heading">[airflow] 5. Pyspark sample code on airflow</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Airflow에서 Pyspark task 실행하기</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/mac-ijavascript-%EC%84%A4%EC%B9%98/">
+                <h3 class="media-heading">[Mac] Ijavascript 설치</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
         
           <div class="media">
             
@@ -751,44 +813,6 @@ airflow scheduler
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/pythonnbviewer-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0/">
-                <h3 class="media-heading">[python]nbviewer 실행시키기</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Dec 12, 2017
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p><code>cat iris.txt | python test.py</code></p>
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/11/airflow-2.-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/">
-                <h3 class="media-heading">[airflow] 2. 튜토리얼</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Nov 11, 2017
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>pipeline을 따라 만들어보며 Airflow의 concept, object, usage를 습득하기.</p>
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -796,7 +820,7 @@ airflow scheduler
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         44 posts found
+         46 posts found
       </p>
     </div>
   </div>

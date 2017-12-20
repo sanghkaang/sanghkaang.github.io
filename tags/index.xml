@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Dec 2017 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2017 13:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Airflow</title>
       <link>https://sanghkaang.github.io/tags/airflow/</link>
-      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/airflow/</guid>
       <description></description>
@@ -77,7 +77,7 @@
     <item>
       <title>Celery</title>
       <link>https://sanghkaang.github.io/tags/celery/</link>
-      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/celery/</guid>
       <description></description>
@@ -113,7 +113,7 @@
     <item>
       <title>Data</title>
       <link>https://sanghkaang.github.io/tags/data/</link>
-      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/data/</guid>
       <description></description>
@@ -122,7 +122,7 @@
     <item>
       <title>Data Engineering</title>
       <link>https://sanghkaang.github.io/tags/data-engineering/</link>
-      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/data-engineering/</guid>
       <description></description>
@@ -201,6 +201,15 @@
     </item>
     
     <item>
+      <title>Ijavascript</title>
+      <link>https://sanghkaang.github.io/tags/ijavascript/</link>
+      <pubDate>Wed, 20 Dec 2017 12:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/ijavascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Installation</title>
       <link>https://sanghkaang.github.io/tags/installation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
@@ -219,11 +228,29 @@
     </item>
     
     <item>
+      <title>Javascript</title>
+      <link>https://sanghkaang.github.io/tags/javascript/</link>
+      <pubDate>Wed, 20 Dec 2017 12:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jekyll</title>
       <link>https://sanghkaang.github.io/tags/jekyll/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>https://sanghkaang.github.io/tags/jupyter/</link>
+      <pubDate>Wed, 20 Dec 2017 12:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/jupyter/</guid>
       <description></description>
     </item>
     
@@ -266,7 +293,7 @@
     <item>
       <title>Open Source</title>
       <link>https://sanghkaang.github.io/tags/open-source/</link>
-      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/open-source/</guid>
       <description></description>
@@ -365,7 +392,7 @@
     <item>
       <title>Rabbitmq</title>
       <link>https://sanghkaang.github.io/tags/rabbitmq/</link>
-      <pubDate>Tue, 05 Dec 2017 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/rabbitmq/</guid>
       <description></description>
