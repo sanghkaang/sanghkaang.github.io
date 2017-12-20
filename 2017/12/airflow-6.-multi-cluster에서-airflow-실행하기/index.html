@@ -291,12 +291,12 @@
 
 <pre><code class="language-sh">executor=CeleryExecutor
 
-# 1번 Instance의 ip(13.124.213.43)를 이용해 metadata database 접속
-sql_alchemy_conn = postgresql+psycopg2://airflow:airflow@13.124.213.43/airflow
+# 1번 Instance의 ip를 이용해 metadata database 접속
+sql_alchemy_conn = postgresql+psycopg2://xxxxxx
 
-broker_url = amqp://rabbitmq_airflow_user:rabbitmq_airflow_user@13.124.213.43:5672/rabbitmq_airflow_vhost
+broker_url = amqp://xxxxxx
 
-celery_result_backend = amqp://rabbitmq_airflow_user:rabbitmq_airflow_user@13.124.213.43:5672/rabbitmq_airflow_vhost
+celery_result_backend = amqp://xxxxxx
 </code></pre>
 
 <h1 id="두개의-인스턴스에서-각각-worker-실행하기">두개의 인스턴스에서 각각 worker 실행하기</h1>
@@ -368,8 +368,13 @@ t3.set_upstream(t2)
 t4.set_upstream(t3)
 </code></pre>
 
-<p><img src="https://i.imgur.com/OSOzC6J.jpg" alt="" />
-<img src="https://i.imgur.com/xouSeVf.jpg" alt="" /></p>
+<p><img src="https://i.imgur.com/OSOzC6J.jpg" alt="" /></p>
+
+<ul>
+<li>-q옵션을 주면 이전과는 다른 메세지를 볼 수 있다.</li>
+</ul>
+
+<p><img src="https://i.imgur.com/xouSeVf.jpg" alt="" /></p>
 
 <ul>
 <li>지정해준대로 t1, t3는 q1에서 실행되었고 t3, t4는 q2에서 실행되었다.</li>

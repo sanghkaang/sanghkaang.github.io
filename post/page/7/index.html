@@ -233,7 +233,7 @@
 
     </div>
     <div class="postShorten-excerpt" itemprop="articleBody">
-      
+      Install the RabbitMQ Server  http://www.rabbitmq.com/install-homebrew.html brew install rabbitmq  Run RabbitMQ Server path 설정  PATH=$PATH:/usr/local/sbin to your .bash_profile  실행  rabbitmq-server 기본 credential user명: guest, password: guest  localhost로 연결시에만 기본 user가 사용 가능하며 다른 연결을 사용할 경우 미리 credential을 설정해야 한다.   Controlling System Limits on OS X  대부분의 OS에서, Max number of open files는 messaging broker로 쓰기엔 턱없이 적다. rabbitmq를 이용하기 위해, production에선 최소한 65536이상, 개발환경에선 4096이상의 Max number of open files를 지정해주는걸 추천.
       <p>
         <a href="https://sanghkaang.github.io/1/01/" class="postShorten-excerpt_link link">Continue reading</a>
         
@@ -526,6 +526,23 @@ sudo kill ps -ef | grep rabbit|awk '{print $2}' sudo service postgresql restart
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">[airflow] 6. Multi cluster에서 airflow 실행하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/">
                 <h3 class="media-heading">[airflow] 5. Pyspark sample code on airflow</h3>
               </a>
@@ -679,25 +696,6 @@ sudo kill ps -ef | grep rabbit|awk '{print $2}' sudo service postgresql restart
               </span>
               <div class="media-content hide-xs font-merryweather"><ul>
 <li>메뉴얼이 잘 되어있습니다.</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/pythoncat%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-stdin-%EC%9D%B8%ED%92%8B-%EC%A3%BC%EA%B8%B0/">
-                <h3 class="media-heading">[python]cat을 이용해서 stdin 인풋 주기</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Dec 12, 2017
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p><code>cat iris.txt | python test.py</code></p>
-
-<p></p></div>
             </div>
             <div style="clear:both;"></div>
             <hr>

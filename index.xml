@@ -6,10 +6,19 @@
     <description>Recent content on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 13:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2017 14:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[airflow] 6. Multi cluster에서 airflow 실행하기</title>
+      <link>https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 20 Dec 2017 14:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[airflow] 5. Pyspark sample code on airflow</title>
@@ -420,15 +429,6 @@
       
       <guid>https://sanghkaang.github.io/1/01/</guid>
       <description>Install the RabbitMQ Server  http://www.rabbitmq.com/install-homebrew.html brew install rabbitmq  Run RabbitMQ Server path 설정  PATH=$PATH:/usr/local/sbin to your .bash_profile  실행  rabbitmq-server 기본 credential user명: guest, password: guest  localhost로 연결시에만 기본 user가 사용 가능하며 다른 연결을 사용할 경우 미리 credential을 설정해야 한다.   Controlling System Limits on OS X  대부분의 OS에서, Max number of open files는 messaging broker로 쓰기엔 턱없이 적다. rabbitmq를 이용하기 위해, production에선 최소한 65536이상, 개발환경에선 4096이상의 Max number of open files를 지정해주는걸 추천.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sanghkaang.github.io/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sanghkaang.github.io/1/01/</guid>
-      <description></description>
     </item>
     
     <item>
