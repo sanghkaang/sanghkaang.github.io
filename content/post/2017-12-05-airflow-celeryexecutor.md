@@ -32,6 +32,8 @@ Celery는 message broker로 RabbitMQ, Redis, Amazon SQS등을 사용할 수 있�
 ```sh
 brew install rabbitmq
 pip install celery
+# rabbitmq web ui 사용가능하게 하기
+# rabbitmq-plugins enable rabbitmq_management
 ```
 
 - 설정값을 변경하지 않았다면 기본적으로 rabbitmq는 **5672** port를 사용하고 webUI는 **15672** port를 사용한다.(http://localhost:15672/)
@@ -78,6 +80,24 @@ donot_pickle=True
 # 이 옵션을 수정해줘야 CeleryExecutor가 실행된다. 이유는 모르겠다. 
 ```
 
+## localhost??
+
+localhost가 아닐 경우도 있다. rabbitmq-server를 실행하면 아래처럼 메세지가 나온다.
+
+```sh
+ubuntu@ip-172-19-32-248:~/airflow/dags$ sudo rabbitmq-server
+
+              RabbitMQ 3.5.7. Copyright (C) 2007-2015 Pivotal Software, Inc.
+  ##  ##      Licensed under the MPL.  See http://www.rabbitmq.com/
+  ##  ##
+  ##########  Logs: /var/log/rabbitmq/rabbit@ip-172-19-32-248.log
+  ######  ##        /var/log/rabbitmq/rabbit@ip-172-19-32-248-sasl.log
+  ##########
+              Starting broker... completed with 6 plugins.
+```
+
+여기서는 localhost가 아닌 **ip-172-19-32-248**를 broker_url, celery_result_backend에 적어줘야 한다.
+
 # meta db 설정
 
 ```sh
@@ -98,6 +118,8 @@ psql -U [postgres_user_name] -h [postgres_host_name] -d [postgres_database_name]
 
 # IMPORTANT: update your sql_alchemy_conn string in airflow.cfg
 ```
+
+> http://suite.opengeo.org/docs/latest/dataadmin/pgGettingStarted/firstconnect.html
 
 # 실행
 
