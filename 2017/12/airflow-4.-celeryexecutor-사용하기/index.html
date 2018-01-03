@@ -333,6 +333,7 @@ donot_pickle=True
 <h1 id="meta-db-설정">meta db 설정</h1>
 
 <pre><code class="language-sh"># Modify /usr/local/var/postgres/pg_hba.conf to add Client Authentication Record
+# IPv4 local connections:
 host    all         all         0.0.0.0/0          md5 # 0.0.0.0/0 stands for all ips; use CIDR address to restrict access; md5 for pwd authentication
 
 # Change the Listen Address in /usr/local/var/postgres/postgresql.conf
@@ -482,7 +483,7 @@ airflow scheduler
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
+    &copy; 2018 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
   </span>
 </footer>
 

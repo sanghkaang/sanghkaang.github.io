@@ -247,6 +247,7 @@
 <li><a href="#postgres-설치">Postgres 설치</a></li>
 <li><a href="#database-설정">Database 설정</a></li>
 <li><a href="#airflow-cfg-수정">airflow.cfg 수정</a></li>
+<li><a href="#meta-db-설정">meta db 설정</a></li>
 <li><a href="#airflow-initdb">airflow initdb</a></li>
 <li><a href="#참조">참조</a></li>
 </ul>
@@ -291,6 +292,13 @@ postgres=# grant all privileges on all tables in schema public to sanghun;
 sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
 
 # Format： dialect+driver://username:password@host:port/database
+</code></pre>
+
+<h1 id="meta-db-설정">meta db 설정</h1>
+
+<pre><code class="language-sh"># Modify /usr/local/var/postgres/pg_hba.conf to add Client Authentication Record
+# IPv4 local connections:
+host    all         all         0.0.0.0/0          md5 # 0.0.0.0/0 stands for all ips; use CIDR address to restrict access; md5 for pwd authentication
 </code></pre>
 
 <h1 id="airflow-initdb">airflow initdb</h1>
@@ -410,7 +418,7 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
+    &copy; 2018 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
   </span>
 </footer>
 
