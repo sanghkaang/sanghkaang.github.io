@@ -14,6 +14,7 @@ sudo kill -9 11745
 rabbitmqctl add_user openstack_rabbit_user openstack_rabbit_password; rabbitmqctl set_permissions -p / openstack_rabbit_user "." "." ".*" ; rabbitmqctl set_user_tags openstack_rabbit_user administrator;
 
 
+sudo kill `ps -ef | grep airflow|awk '{print $2}'`
 sudo kill `ps -ef | grep rabbit|awk '{print $2}'`
 sudo service postgresql restart
 

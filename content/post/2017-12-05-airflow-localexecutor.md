@@ -60,6 +60,14 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
 # Format： dialect+driver://username:password@host:port/database
 ```
 
+# meta db 설정
+
+```sh
+# Modify /usr/local/var/postgres/pg_hba.conf to add Client Authentication Record
+# IPv4 local connections:
+host    all         all         0.0.0.0/0          md5 # 0.0.0.0/0 stands for all ips; use CIDR address to restrict access; md5 for pwd authentication
+```
+
 # airflow initdb
 
 `airflow initdb`명령어를 통해 DB초기화 해주면 이제 sqlite가 아닌 postgres를 사용할 수 있다.
