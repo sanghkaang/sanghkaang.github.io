@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 14:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adwords</title>
+      <link>https://sanghkaang.github.io/tags/adwords/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/adwords/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Airflow</title>
@@ -174,6 +183,15 @@
     </item>
     
     <item>
+      <title>Google</title>
+      <link>https://sanghkaang.github.io/tags/google/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hadoop</title>
       <link>https://sanghkaang.github.io/tags/hadoop/</link>
       <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
@@ -257,7 +275,7 @@
     <item>
       <title>Linux</title>
       <link>https://sanghkaang.github.io/tags/linux/</link>
-      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/linux/</guid>
       <description></description>
@@ -269,6 +287,15 @@
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://sanghkaang.github.io/tags/marketing/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/marketing/</guid>
       <description></description>
     </item>
     
@@ -494,6 +521,15 @@
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sanghkaang.github.io/tags/zeppelin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>https://sanghkaang.github.io/tags/zsh/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/tags/zsh/</guid>
       <description></description>
     </item>
     
