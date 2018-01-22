@@ -32,6 +32,17 @@
     </item>
     
     <item>
+      <title>[airflow] 5. Pyspark sample code on airflow</title>
+      <link>https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/</link>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/</guid>
+      <description>&lt;p&gt;Airflow에서 Pyspark task 실행하기&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Mac] ijavascript 설치</title>
       <link>https://sanghkaang.github.io/2017/12/mac-ijavascript-%EC%84%A4%EC%B9%98/</link>
       <pubDate>Wed, 20 Dec 2017 12:00:00 +0900</pubDate>

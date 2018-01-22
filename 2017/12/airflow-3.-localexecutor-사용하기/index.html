@@ -247,6 +247,7 @@
 <li><a href="#postgres-설치">Postgres 설치</a></li>
 <li><a href="#database-설정">Database 설정</a></li>
 <li><a href="#airflow-cfg-수정">airflow.cfg 수정</a></li>
+<li><a href="#meta-db-설정">meta db 설정</a></li>
 <li><a href="#airflow-initdb">airflow initdb</a></li>
 <li><a href="#참조">참조</a></li>
 </ul>
@@ -291,6 +292,13 @@ postgres=# grant all privileges on all tables in schema public to sanghun;
 sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
 
 # Format： dialect+driver://username:password@host:port/database
+</code></pre>
+
+<h1 id="meta-db-설정">meta db 설정</h1>
+
+<pre><code class="language-sh"># Modify /usr/local/var/postgres/pg_hba.conf to add Client Authentication Record
+# IPv4 local connections:
+host    all         all         0.0.0.0/0          md5 # 0.0.0.0/0 stands for all ips; use CIDR address to restrict access; md5 for pwd authentication
 </code></pre>
 
 <h1 id="airflow-initdb">airflow initdb</h1>
@@ -410,7 +418,7 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2017 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
+    &copy; 2018 <a href="https://github.com/sanghkaang">sanghkaang</a>. All Rights Reserved
   </span>
 </footer>
 
@@ -564,6 +572,25 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/raspberrypi-stretch-with-desktop%EC%97%90%EC%84%9C-%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/">
+                <h3 class="media-heading">Raspberrypi stretch with desktop에서 스트라티스 qt월렛 빌드하기</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Guide대로 Jessie에서 하면 편합니다만 Stretch에서 하시길 원하신다면</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/">
                 <h3 class="media-heading">[airflow] 6. Multi cluster에서 airflow 실행하기</h3>
               </a>
@@ -573,6 +600,25 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
                 </span>
               </span>
               <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/">
+                <h3 class="media-heading">[airflow] 5. Pyspark sample code on airflow</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Airflow에서 Pyspark task 실행하기</p>
+
+<p></p></div>
             </div>
             <div style="clear:both;"></div>
             <hr>
@@ -704,41 +750,6 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/maxos-hive-%EC%84%A4%EC%B9%98/">
-                <h3 class="media-heading">MaxOS Hive 설치</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Dec 12, 2017
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://sanghkaang.github.io/2017/12/maxos-hue-%EC%84%A4%EC%B9%98/">
-                <h3 class="media-heading">MaxOS Hue 설치</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Dec 12, 2017
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><ul>
-<li>메뉴얼이 잘 되어있습니다.</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -746,7 +757,7 @@ sql_alchemy_conn = postgresql+psycopg2://sanghun:sanghun@localhost/airflow
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         47 posts found
+         49 posts found
       </p>
     </div>
   </div>

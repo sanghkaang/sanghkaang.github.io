@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 14:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sanghkaang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberrypi stretch with desktop에서 스트라티스 qt월렛 빌드하기</title>
+      <link>https://sanghkaang.github.io/2017/12/raspberrypi-stretch-with-desktop%EC%97%90%EC%84%9C-%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/raspberrypi-stretch-with-desktop%EC%97%90%EC%84%9C-%EC%8A%A4%ED%8A%B8%EB%9D%BC%ED%8B%B0%EC%8A%A4-qt%EC%9B%94%EB%A0%9B-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;p&gt;Guide대로 Jessie에서 하면 편합니다만 Stretch에서 하시길 원하신다면&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[airflow] 6. Multi cluster에서 airflow 실행하기</title>
@@ -18,6 +29,17 @@
       
       <guid>https://sanghkaang.github.io/2017/12/airflow-6.-multi-cluster%EC%97%90%EC%84%9C-airflow-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[airflow] 5. Pyspark sample code on airflow</title>
+      <link>https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/</link>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://sanghkaang.github.io/2017/12/airflow-5.-pyspark-sample-code-on-airflow/</guid>
+      <description>&lt;p&gt;Airflow에서 Pyspark task 실행하기&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -482,7 +504,7 @@ CNAME 알아서 들어감 gui에서 설정하면
 sudo rabbitmqctl add_user rabbitmq_airflow_user rabbitmq_airflow_user sudo rabbitmqctl set_user_tags rabbitmq_airflow_user administrator sudo rabbitmqctl set_permissions -p / rabbitmq_airflow_user &amp;ldquo;.&amp;rdquo; &amp;ldquo;.&amp;rdquo; &amp;ldquo;.*&amp;rdquo; sudo rabbitmqctl add_vhost rabbitmq_airflow_vhost
 ps aux|grep rabbit|awk &amp;lsquo;{print $2}&amp;rsquo; sudo kill -9 11745
 rabbitmqctl add_user openstack_rabbit_user openstack_rabbit_password; rabbitmqctl set_permissions -p / openstack_rabbit_user &amp;ldquo;.&amp;rdquo; &amp;ldquo;.&amp;rdquo; &amp;ldquo;.*&amp;rdquo; ; rabbitmqctl set_user_tags openstack_rabbit_user administrator;
-sudo kill ps -ef | grep rabbit|awk &#39;{print $2}&#39; sudo service postgresql restart</description>
+sudo kill ps -ef | grep airflow|awk &#39;{print $2}&#39; sudo kill ps -ef | grep rabbit|awk &#39;{print $2}&#39; sudo service postgresql restart</description>
     </item>
     
   </channel>
